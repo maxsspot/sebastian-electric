@@ -65,7 +65,6 @@
                 document.getElementById ("home").style.display = "none";
                 document.getElementById ("pictures").style.display = "none";
                 document.title = "Sebastian Electric LLC - Contact";
-                location.hash = "contact";
             }
             
             function home () {
@@ -73,25 +72,12 @@
                 document.getElementById ("home").style.display = "block";
                 document.getElementById ("pictures").style.display = "none";
                 document.title = "Sebastian Electric LLC";
-                location.hash = "";
             }
             
             function pictures () {
                 document.getElementById ("home").style.display = "none";
                 document.getElementById ("contact").style.display = "none";
                 document.getElementById ("pictures").style.display = "block";
-            }
-            
-            if (location.hash = "contact") {
-                document.getElementById ("contact").style.display = "block";
-                document.getElementById ("home").style.display = "none";
-                document.getElementById ("pictures").style.display = "none";
-            }
-            
-            if (location.hash = "") {
-                document.getElementById ("contact").style.display = "none";
-                document.getElementById ("home").style.display = "block";
-                document.getElementById ("pictures").style.display = "none";
             }
         </script>
         <style>
