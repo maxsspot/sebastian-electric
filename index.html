@@ -47,6 +47,7 @@
             <img src = "https://www.dropbox.com/s/amir3p00rafnpqp/23929.jpeg?raw=1" />
         </div>
         <script>
+            location.hash = "";
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
@@ -72,6 +73,7 @@
                 document.getElementById ("home").style.display = "block";
                 document.getElementById ("pictures").style.display = "none";
                 document.title = "Sebastian Electric LLC";
+                location.hash = "";
             }
             
             function pictures () {
@@ -83,6 +85,12 @@
             if (location.hash = "contact") {
                 document.getElementById ("contact").style.display = "block";
                 document.getElementById ("home").style.display = "none";
+                document.getElementById ("pictures").style.display = "none";
+            }
+            
+            if (location.hash = "") {
+                document.getElementById ("contact").style.display = "none";
+                document.getElementById ("home").style.display = "block";
                 document.getElementById ("pictures").style.display = "none";
             }
         </script>
