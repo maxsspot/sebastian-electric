@@ -24,6 +24,7 @@
             <button id = "button" onclick = "home();navback()">Home</button>
             <button id = "button" onclick = "pictures();navback()">Pictures</button>
             <button id = "button" onclick = "contact();navback()">Contact</button>
+	    <button id = "button" onclick = "mode();>Dark mode</button>
         </div>
         <br>
         <br>
@@ -96,6 +97,10 @@
             $(document).ready(function(){    
                 $('#loader').hide();
             });
+								    
+            function mode () {
+		document.body.backgroundColor = "#36454f";			    
+	    }
         </script>
         <style>
             * {
@@ -164,6 +169,7 @@ a {
     left:50%;
     transform:translate(-50%, -50%);
 }
+			    
 
 @keyframes loadwebsite {
     0% {
