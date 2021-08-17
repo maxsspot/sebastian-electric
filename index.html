@@ -11,7 +11,7 @@
         <title>Sebastian Electric LLC</title>
     </head>
     <body>
-        <nav>
+        <nav id = "nav">
             <button id = "nav" onclick = "nav()"><i class = "fas fa-bars fa-lg"></i></button>
             <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review" style = "border-bottom:whitesmoke solid 1px;">Reviews</a>
             <button id = "nav2" onclick = "navback()"><i class = "fas fa-times fa-lg"></i></button>
@@ -100,6 +100,7 @@
 								    
             function mode () {
 		document.body.style.background = "grey";
+		document.getElementById ("nav").style.background = "darkgrey";
 	    }
         </script>
         <style>
