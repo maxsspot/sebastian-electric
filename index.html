@@ -24,7 +24,8 @@
             <button id = "button" onclick = "home();navback()">Home</button>
             <button id = "button" onclick = "pictures();navback()">Pictures</button>
             <button id = "button" onclick = "contact();navback()">Contact</button>
-	    <button id = "button" onclick = "mode()">Dark mode</button>
+	    <button id = "button" onclick = "mode()" style = "width:50%;">Dark mode</button>
+	    <button id = "button" onclick = "modelight()" style = "width:50%;">Light mode</button>
         </div>
         <br>
         <br>
@@ -102,6 +103,12 @@
 		document.body.style.background = "grey";
 		document.getElementById ("navheader").style.background = "darkgrey";
 		document.getElementById ("navigation").style.background = "darkgrey";
+	    }
+		
+            function modelight () {
+		document.body.style.background = "white";
+		document.getElementById ("navheader").style.background = "whitesmoke";
+		document.getElementById ("navigation").style.background = "whitesmoke";
 	    }
         </script>
         <style>
