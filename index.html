@@ -3,6 +3,7 @@
     <head>
         <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <meta charset = "UTF-8">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <meta name="description" content = "Sebastian Electric LLC is an electrical company located in Enola, PA. Go to our website to learn more!">
         <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
         <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fnew_gallery%2F240-2405971_electric-bikes-socket-io.png&f=1&nofb=1" type = "image/x-icon">
@@ -26,6 +27,9 @@
         </div>
         <br>
         <br>
+        <div id = "loader">
+
+		</div>
         <div id = "home">
             <h2>Sebastian Electric LLC</h2>
             <a href = "tel:7177320289">Call us</a>
@@ -85,6 +89,10 @@
                 document.getElementById ("pictures").style.display = "block";
                 document.title = "Sebastian Electric LLC - Pictures";
             }
+            
+            $(document).ready(function(){    
+                $('#loader').hide();
+            });
         </script>
         <style>
             * {
@@ -140,6 +148,32 @@ a {
     text-decoration:none;
     transition:all 0.25s;
     border-bottom:white solid 1px;
+}
+            
+#loader {
+    width:150px;
+    height:150px;
+    border-radius:10px;
+    background-color:whitesmoke;
+    animation:loadwebsite 5s infinite;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+@keyframes loadwebsite {
+    0% {
+        border-radius:10px;
+    }
+
+    50% {
+        border-radius:50%;
+    }
+
+    100% {
+        border-radius:10px;
+    }
 }
 
 hr {
