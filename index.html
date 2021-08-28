@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sebastian Electric LLC</title>
     </head>
-    <body>
+    <body onload = "loadedpage()">
         <nav id = "navheader">
             <button id = "nav" onclick = "nav()"><i class = "fas fa-bars fa-lg"></i></button>
             <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review">Reviews</a>
@@ -121,7 +121,7 @@
                 document.title = "Sebastian Electric LLC - Pictures";
             }
 		
-	    if(document.readyState === 'complete') {
+	    function loadedpage() {
 		document.getElementById ("loader").style.display = "none";
 	    }
 								    
