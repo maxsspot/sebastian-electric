@@ -1,0 +1,39 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "deny"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy = "no-referrer"
+        Strict-Transport-Security = '''
+            max-age=31536000;
+            includeSubDomains
+        '''
+        Content-Security-Policy = '''
+            default-src 'self' https:;
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
+            object-src 'self';
+            base-uri 'self';
+            frame-src 'self';
+            manifest-src 'none';
+        '''
+        Permissions-Policy = '''
+            accelerometer=(none),
+            ambient-light-sensor=(none),
+            autoplay=(none),
+            camera=(none),
+            encrypted-media=(none),
+            fullscreen=(none),
+            geolocation=(none),
+            gyroscope=(none),
+            magnetometer=(none),
+            microphone=(none),
+            midi=(none),
+            payment=(none),
+            picture-in-picture=(none),
+            speaker=(none),
+            usb=(none),
+            vibrate=(none),
+            vr=(none)
+        '''
