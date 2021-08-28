@@ -73,9 +73,9 @@
             }
 		
 	    function loaded () {
-		if (document.cookie = "true") {
+		if (getCookie ("darkmode") = "true") {
 			mode();    
-	    	} else if (document.cookie = "false") {
+	    	} else if (getCookie ("darkmode") = "false") {
 			modelight();    
 	    	}    
 	    }
