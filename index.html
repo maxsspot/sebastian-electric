@@ -73,13 +73,13 @@
             }
 		
 	    function loaded () {
-		if (document.cookie = "darkmode=true") {
+		if (document.cookie = "darkmode=true" && document.cookie = "lightmode=false") {
 			mode();    
 	    	}
 	    }
 		
 	    function loaded2 () {
-		if (document.cookie = "lightmode=true") {
+		if (document.cookie = "lightmode=true" && document.cookie = "darkmode=false") {
 			modelight();    
 	    	}
 	    }
