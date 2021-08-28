@@ -37,9 +37,9 @@
         <br>
         <br>
 	<br>
-        <!--<div id = "loader">
+        <div id = "loader">
 
-	</div>-->
+	</div>
         <div id = "home">
             <h2 id = "p">Sebastian Electric LLC</h2>
             <a href = "tel:7177320289">Call us</a>
@@ -120,10 +120,10 @@
                 document.getElementById ("pictures").style.display = "block";
                 document.title = "Sebastian Electric LLC - Pictures";
             }
-            
-            $(document).ready(function(){    
-                $('#loader').hide();
-            });
+		
+	    if(document.readyState === 'complete') {
+		document.getElementById ("loader").style.display = "none";
+	    }
 								    
             function mode () {
 		document.body.style.background = "#A0A0A0";
