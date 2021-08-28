@@ -78,13 +78,14 @@
 	    	}
 	    }
 		
-	    function loaded () {
+	    function loaded2 () {
 		if (document.cookie = "lightmode=true") {
 			modelight();    
 	    	}
 	    }
 		
 	    loaded();
+	    loaded2();
 
             function navback () {
                 document.getElementById ("nav").style.display = "block";
@@ -125,6 +126,7 @@
 		document.getElementById ("hr").style.border = "#383838 solid 1px";
 		document.getElementById ("hr2").style.background = "#383838";
 		document.getElementById ("hr2").style.border = "#383838 solid 1px";
+		document.cookie = "lightmode=false; Max-Age=2600000; Secure; SameSite=Strict";
 		document.cookie = "darkmode=true; Max-Age=2600000; Secure; SameSite=Strict";
 	    }
 		
@@ -136,6 +138,7 @@
 		document.getElementById ("hr").style.border = "gainsboro solid 1px";
 		document.getElementById ("hr2").style.background = "gainsboro";
 		document.getElementById ("hr2").style.border = "gainsboro solid 1px";
+		document.cookie = "darkmode=false; Max-Age=2600000; Secure; SameSite=Strict";
 		document.cookie = "lightmode=true; Max-Age=2600000; Secure; SameSite=Strict";
 	    }
         </script>
