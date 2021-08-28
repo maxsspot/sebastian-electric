@@ -66,6 +66,11 @@
             <br>
         </div>
         <script>
+	    if (document.cookie = "true") {
+		mode();    
+	    } else if (document.cookie = "false") {
+		modelight();    
+	    }
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
@@ -111,7 +116,7 @@
 		document.getElementById ("hr").style.border = "#383838 solid 1px";
 		document.getElementById ("hr2").style.background = "#383838";
 		document.getElementById ("hr2").style.border = "#383838 solid 1px";
-		document.cookie = "darkmode=true; Max-Age=2600000; Secure";
+		document.cookie = "darkmode=true; Max-Age=2600000; Secure; SameSite=Strict";
 	    }
 		
             function modelight () {
@@ -122,13 +127,7 @@
 		document.getElementById ("hr").style.border = "gainsboro solid 1px";
 		document.getElementById ("hr2").style.background = "gainsboro";
 		document.getElementById ("hr2").style.border = "gainsboro solid 1px";
-		document.cookie = "darkmode=false; Max-Age=2600000; Secure";
-	    }
-		
-	    if (document.cookie = "true") {
-		mode();    
-	    } else if (document.cookie = "false") {
-		modelight();    
+		document.cookie = "darkmode=false; Max-Age=2600000; Secure; SameSite=Strict";
 	    }
         </script>
         <style>
