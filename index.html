@@ -73,12 +73,14 @@
             }
 		
 	    function loaded () {
-		if (getCookie ("darkmode") = "true") {
+		if (document.cookie = "true") {
 			mode();    
-	    	} else if (getCookie ("darkmode") = "false") {
+	    	} else if (document.cookie = "false") {
 			modelight();    
 	    	}    
 	    }
+		
+	    loaded();
 
             function navback () {
                 document.getElementById ("nav").style.display = "block";
