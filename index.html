@@ -23,7 +23,7 @@
             <button id = "button" onclick = "home();navback()">Home</button>
             <button id = "button" onclick = "pictures();navback()">Pictures</button>
             <button id = "button" onclick = "contact();navback()">Contact</button>
-            <button id = "button" onclick = "rate();navback()">Review us</button>
+            <button id = "button" onclick = "window.open ('mailto:sebastianelectrical@gmail.com?subject=My%20review&body=')>Review us</button>
             <br>
 	    <br>
 	    <!--
@@ -61,7 +61,7 @@
             <a href = "mailto:sebastianelectrical@gmail.com" target = "_blank"><i class = "fas fa-envelope"></i></a>
         </div>
         <div id = "review">
-            <form method = "POST" netlify >
+            <form method = "POST">
             <h2 id = "p">Review us</h2>
             <br>
             <textarea spellcheck = "true" placeholder = "Comment here... (500 characters)" id = "comment"></textarea>
