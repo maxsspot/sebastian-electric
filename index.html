@@ -23,6 +23,7 @@
             <button id = "button" onclick = "home();navback()">Home</button>
             <button id = "button" onclick = "pictures();navback()">Pictures</button>
             <button id = "button" onclick = "contact();navback()">Contact</button>
+            <button id = "button" onclick = "rate();navback()">Review us</button>
             <br>
 	    <br>
 	    <!--
@@ -50,12 +51,23 @@
 	    <br>
             <h2 id = "p">What we do</h2>
             <p style = "width:300px;margin-left:auto;margin-right:auto;" id = "p">When you first hear about our company you may be wondering what we do! First off we do free estimates. We also do water heaters. We do ceiling fans and replace lightbulbs. Alongside this we do all residential and commercial electrical work. We are also fully insured. Plus no job is too small, and we take all major credit cards!</p>
+            <br>
+            <br>
         </div>
         <div id = "contact">
             <h2 id = "p">Contact us</h2>
             <a href = "tel:7177320289">Call us</a> • 
             <a href = "https://m.facebook.com/SebastianElectricService" target = "_blank"><i class="fab fa-facebook"></i></a>
             <a href = "mailto:sebastianelectrical@gmail.com" target = "_blank"><i class = "fas fa-envelope"></i></a>
+        </div>
+        <div id = "review">
+            <form method = "POST" netlify >
+            <h2 id = "p">Review us</h2>
+            <br>
+            <textarea spellcheck = "true" placeholder = "Comment here... (500 characters)" id = "comment"></textarea>
+            <br>
+            <button id = "button" style = "width:301.5px;border-radius:5px;">Submit</button>
+            </form>
         </div>
         <div id = "pictures">
             <h2 id = "p">Pictures</h2> 
@@ -103,6 +115,7 @@
                 document.getElementById ("contact").style.display = "block";
                 document.getElementById ("home").style.display = "none";
                 document.getElementById ("pictures").style.display = "none";
+                 document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC - Contact";
             }
             
@@ -110,6 +123,7 @@
                 document.getElementById ("contact").style.display = "none";
                 document.getElementById ("home").style.display = "block";
                 document.getElementById ("pictures").style.display = "none";
+                 document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC";
             }
             
@@ -117,7 +131,16 @@
                 document.getElementById ("home").style.display = "none";
                 document.getElementById ("contact").style.display = "none";
                 document.getElementById ("pictures").style.display = "block";
+                 document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC - Pictures";
+            }
+
+            function rate () {
+                document.getElementById ("home").style.display = "none";
+                document.getElementById ("pictures").style.display = "none";
+                document.getElementById ("contact").style.display = "none";
+                document.getElementById ("review").style.display = "block";
+                document.title = "Sebastian Electric LLC - Review us";
             }
 		
 	    function loadedpage() {
@@ -187,6 +210,10 @@ body {
     margin-top:5px;
 }
 
+#review {
+    display:none;
+}
+
 #nav, #nav2 {
     width:35px;
     height:35px;
@@ -216,6 +243,17 @@ a {
     left:50%;
     transform:translate(-50%, -50%);
 }			    
+
+textarea {
+    width:300px;
+    height:100px;
+    border-radius:5px;
+    border:black solid 1px;
+    text-indent:10px;
+    resize:none;
+    outline:none;
+    font-family:"Montserrat", sans-serif;
+}
 
 @keyframes loadwebsite {
     0% {
@@ -257,11 +295,9 @@ a:hover {
 }
 
 /*
-
 #button:active {
     background-color:lightgray;
 }
-
 */
 
 #nav2 {
