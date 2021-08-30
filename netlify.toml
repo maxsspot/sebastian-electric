@@ -1,3 +1,5 @@
+ines (43 sloc)  1.5 KB
+ 
 [[headers]]
     for = "/*"
     [headers.values]
@@ -5,11 +7,16 @@
         X-XSS-Protection = "1; mode=block"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
+        Expect-CT = "enforce, max-age=31536000"
+        Cross-Origin-Opener-Policy = "same-origin"
+        Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Embedder-Policy = "unsafe-none"
         Strict-Transport-Security = '''
             max-age=31536000;
             includeSubDomains
         '''
         Content-Security-Policy = '''
+            default-src 'self' https:;
             script-src 'self' 'unsafe-inline';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'self';
