@@ -12,7 +12,7 @@
     <body onload = "loadedpage()">
         <nav id = "navheader">
             <button id = "nav" onclick = "nav()"><i class = "fas fa-bars fa-lg"></i></button>
-            <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review">Reviews</a>
+            <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review" style = "border-bottom:transparent;">Reviews</a>
             <button id = "nav2" onclick = "navback()"><i class = "fas fa-times fa-lg"></i></button>
             <label id = "title">Sebastian Electric LLC</label>
         </nav>
@@ -226,10 +226,10 @@ body {
 }
 
 a {
-    color:green;
+    color:lightgreen;
     text-decoration:none;
     transition:all 0.25s;
-    border-bottom:transparent;
+    border-bottom:white solid 1px;
 }
             
 #loader {
@@ -280,7 +280,7 @@ hr {
 }
 
 a:hover {
-    border-bottom:green solid 1px;
+    border-bottom:lightgreen solid 1px;
 }
 
 #button {
