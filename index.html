@@ -45,12 +45,32 @@
             <a href = "tel:7177320289">Call us</a>
             <br>
             <br>
-	    <br>
-            <hr id = "hr2">
+	        <br>
+            <div id = "what">
             <br>
-	    <br>
+	        <br>
             <h2 id = "p">What we do</h2>
             <p style = "width:300px;margin-left:auto;margin-right:auto;" id = "p">When you first hear about our company you may be wondering what we do! First off we do free estimates. We also do water heaters. We do ceiling fans and replace lightbulbs. Alongside this we do all residential and commercial electrical work. We are also fully insured. Plus no job is too small, and we take all major credit cards!</p>
+            <br>
+            <br>
+            </div>
+            <br>
+            <br>
+            <h2>Our qualities</h2>
+            <br>
+            <i class = "fas fa-hard-hat fa-3x" style = "color:green;"></i>
+            <br>
+            <label style = "color:green;font-size:24px;">Saftey</label>
+            <br>
+            <br>
+            <i class = "fas fa-handshake fa-3x" style = "color:green;"></i>
+            <br>
+            <label style = "color:green;font-size:24px;">Respect</label>
+            <br>
+            <br>
+            <i class = "fas fa-users fa-3x" style = "color:green;"></i>
+            <br>
+            <label style = "color:green;font-size:24px;">Responsible</label>
             <br>
             <br>
         </div>
@@ -144,7 +164,7 @@
             }
 		
 	    function loadedpage() {
-		document.getElementById ("loader").style.display = "none";
+		document.getElementById ("loader").style.visibility = "hidden";
 	    }
 								    
             function mode () {
@@ -232,6 +252,7 @@ a {
     width:150px;
     height:150px;
     border-radius:0px;
+    transition:all 0.25s;
     background-color:whitesmoke;
     animation:loadwebsite 2.5s infinite;
     position: absolute;
@@ -249,6 +270,11 @@ textarea {
     resize:none;
     outline:none;
     font-family:"Montserrat", sans-serif;
+}
+
+#what {
+    background-color:gainsboro;
+    width:100%;
 }
 
 @keyframes loadwebsite {
