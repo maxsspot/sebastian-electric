@@ -11,9 +11,6 @@
     </head>
     <body onload = "loadedpage()">
         <nav id = "navheader">
-	    <button id = "nav" onclick = "nav()"><i class = "fas fa-grip-lines fa-lg"></i></button>
-            <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review" style = "border-bottom:transparent;">Reviews</a>	
-            <button id = "nav2" onclick = "navback()"><i class="fas fa-times fa-lg"></i></button>
             <label id = "title">Sebastian Electric LLC</label>
         </nav>
         <br>
@@ -33,9 +30,12 @@
 	    <a href = "mailto:?subject=Visit the Sebastian Electric website!&body=https://www.sebastianelectric.org" style = "margin:5px;" target = "_blank"><i class = "fas fa-envelope fa-lg"></i></a>
 	    <a href = "sms://+?body+Visit the Sebastia Electric website! https://www.sebastianelectric.org" style = "margin:5px;" target = "_blank"><i class = "fas fa-sms fa-lg"></i></a>
 	</div>
+	    <br>
+	    <br>
+	    <br>
       <div id = "loader"></div>
       <h2>404 Page not Found</h2>
-      <a href = "sebastianelectrical.netlfy.app">Return home</a>
+      <a href = "https://sebastianelectrical.netlfy.app">Return home</a>
         <style>
             * {
     margin:0;
@@ -108,7 +108,15 @@ a {
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-}			    
+}	
+		
+#title {
+    transform:scale(1.1);
+    float:left;
+    margin-left:15px;
+    margin-top:14px;
+    cursor:text;
+}
 
 @keyframes loadwebsite {
     0% {
