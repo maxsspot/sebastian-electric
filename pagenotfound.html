@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <meta charset = "UTF-8">
+        <meta name="description" content = "Sebastian Electric LLC is an electrical company located in Enola, PA. Go to our website to learn more!">
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
+        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fnew_gallery%2F240-2405971_electric-bikes-socket-io.png&f=1&nofb=1" type = "image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sebastian Electric LLC</title>
+    </head>
+    <body onload = "loadedpage()">
+        <nav id = "navheader">
+	    <button id = "nav" onclick = "nav()"><i class = "fas fa-grip-lines fa-lg"></i></button>
+            <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review" style = "border-bottom:transparent;">Reviews</a>	
+            <button id = "nav2" onclick = "navback()"><i class="fas fa-times fa-lg"></i></button>
+            <label id = "title">Sebastian Electric LLC</label>
+        </nav>
+        <br>
+        <br>
+        <div id = "navigation">
+            <br>
+            <button id = "button" onclick = "home();navback()">Home</button>
+            <button id = "button" onclick = "pictures();navback()">Pictures</button>
+            <button id = "button" onclick = "contact();navback()">Contact</button>
+            <button id = "button" onclick = "window.open ('mailto:sebastianelectrical@gmail.com?subject=My%20review&body=Name:%0D%0AComment:')">Review us</button>
+            <br>
+	    <br>
+	    <hr id = "hr">
+	    <br>
+	    <h2>Share our website</h2>
+	    <br>
+	    <a href = "mailto:?subject=Visit the Sebastian Electric website!&body=https://www.sebastianelectric.org" style = "margin:5px;" target = "_blank"><i class = "fas fa-envelope fa-lg"></i></a>
+	    <a href = "sms://+?body+Visit the Sebastia Electric website! https://www.sebastianelectric.org" style = "margin:5px;" target = "_blank"><i class = "fas fa-sms fa-lg"></i></a>
+	</div>
+      <div id = "loader"></div>
+      <h2>404 Page not Found</h2>
+      <a href = "sebastianelectrical.netlfy.app">Return home</a>
+        <style>
+            * {
+    margin:0;
+    padding:0;
+}
+
+#star {
+    float:right;
+    margin-right:15px;
+    margin-top:15px;
+}
+
+#contact, #pictures {
+    display:none;
+}
+
+body {
+    font-family:"Montserrat", sans-serif;
+    text-align:center;
+}
+
+#navheader {
+    width:100%;
+    height:50px;
+    background-color:whitesmoke;
+    position:fixed;
+    transition:all 1s;
+}
+
+#navigation {
+    width:100%;
+    background-color:whitesmoke;
+    height:999vh;
+    margin-left:-100%;
+    transition:all 1s;
+    position:fixed;
+    margin-top:10px;
+}
+
+#review {
+    display:none;
+}
+
+#nav, #nav2 {
+    width:40px;
+    height:40px;
+    background-color:transparent;
+    border:transparent;
+    margin-left:10px;
+    margin-top:5px;
+    border-radius:50px;
+    float:left;
+}
+
+a {
+    color:green;
+    text-decoration:none;
+    transition:all 0.5s;
+    border-bottom:white solid 1px;
+}
+            
+#loader {
+    width:150px;
+    height:150px;
+    border-radius:0px;
+    transition:all 0.25s;
+    background-color:whitesmoke;
+    animation:loadwebsite 2.5s infinite;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}			    
+
+@keyframes loadwebsite {
+    0% {
+        border-radius:0px;
+    }
+
+    50% {
+        border-radius:50%;
+    }
+
+    100% {
+        border-radius:0px;
+    }
+}
+
+a:active {
+    color:lightgreen;
+}
+
+#button:hover {
+    background-color:lightgreen;
+}
+
+/*
+#button:active {
+    background-color:lightgray;
+}
+*/
+
+#nav2 {
+    display:none;
+            }
+
+#nav:hover {
+    background-color:gainsboro;
+}
+
+#nav:active {
+    background-color:lightgray;
+}
+        </style>
+    </body>
+</html> 
