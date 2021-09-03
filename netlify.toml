@@ -41,3 +41,8 @@
             vibrate=(none),
             vr=(none)
         '''
+
+        [[redirects]]
+        from = "/*"
+        to = "/pagenotfound.html"
+        status = 404
