@@ -103,7 +103,11 @@
 		
 	    if (location.hash = "contact") {
 		contact();    
-	    } 
+	    } else if (location.hash = "home") {
+		home();    
+	    } else if (location.hash = "pictures") {
+		pictures();    
+	    }
 		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
