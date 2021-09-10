@@ -99,6 +99,11 @@
             <br>
         </div>
         <script>
+	    var lastChar = url.substr(-1); // Selects the last character
+if (lastChar != '/') {         // If the last character is not a slash
+   url = url + '/home';            // Append a slash to it.
+}
+		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
