@@ -99,17 +99,6 @@
             <br>
         </div>
         <script>
-	    location.hash = "home";
-		
-	    var hash = location.hash;
-	    if (hash = "contact") {
-		contact();    
-	    } else if (hash = "home") {
-		home();    
-	    } else if (hash = "pictures") {
-		pictures();    
-	    }
-		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
@@ -147,7 +136,6 @@
                 document.getElementById ("pictures").style.display = "none";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC - Contact";
-		location.hash = "contact";
             }
             
             function home () {
@@ -156,7 +144,6 @@
                 document.getElementById ("pictures").style.display = "none";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC";
-		location.hash = "home";
             }
             
             function pictures () {
@@ -165,7 +152,6 @@
                 document.getElementById ("pictures").style.display = "block";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC - Pictures";
-		location.hash = "pictures";
             }
 
             function rate () {
