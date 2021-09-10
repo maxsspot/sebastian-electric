@@ -101,6 +101,10 @@
         <script>
 	    location.hash = "home";
 		
+	    if (location.hash = "contact") {
+		contact();    
+	    } 
+		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
@@ -147,7 +151,7 @@
                 document.getElementById ("pictures").style.display = "none";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC";
-		window.location.href.split('#')[0]
+		location.hash = "home";
             }
             
             function pictures () {
