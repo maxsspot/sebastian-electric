@@ -101,11 +101,12 @@
         <script>
 	    location.hash = "home";
 		
-	    if (location.hash = "contact") {
+	    var hash = location.hash;
+	    if (hash = "contact") {
 		contact();    
-	    } else if (location.hash = "home") {
+	    } else if (hash = "home") {
 		home();    
-	    } else if (location.hash = "pictures") {
+	    } else if (hash = "pictures") {
 		pictures();    
 	    }
 		
