@@ -99,10 +99,7 @@
             <br>
         </div>
         <script>
-	    var lastChar = url.substr(-1); // Selects the last character
-if (lastChar != 'e') {         // If the last character is not a slash
-   url = url + '/home';            // Append a slash to it.
-}
+	    location.hash = "home";
 		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
@@ -141,6 +138,7 @@ if (lastChar != 'e') {         // If the last character is not a slash
                 document.getElementById ("pictures").style.display = "none";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC - Contact";
+		location.hash = "contact";
             }
             
             function home () {
@@ -149,6 +147,7 @@ if (lastChar != 'e') {         // If the last character is not a slash
                 document.getElementById ("pictures").style.display = "none";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC";
+		location.hash = "home";
             }
             
             function pictures () {
@@ -157,6 +156,7 @@ if (lastChar != 'e') {         // If the last character is not a slash
                 document.getElementById ("pictures").style.display = "block";
                  document.getElementById ("review").style.display = "none";
                 document.title = "Sebastian Electric LLC - Pictures";
+		location.hash = "pictures";
             }
 
             function rate () {
