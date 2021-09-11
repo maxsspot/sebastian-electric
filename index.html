@@ -20,10 +20,10 @@
         <br>
         <div id = "navigation">
             <br>
-            <button id = "button" onclick = "home();navback()" aria-label = "Go to home">Home</button>
-            <button id = "button" onclick = "pictures();navback()" aria-label = "Go to pictures">Pictures</button>
-            <button id = "button" onclick = "contact();navback()" aria-label = "Go to contact">Contact</button>
-            <button id = "button" onclick = "window.open ('mailto:sebastianelectrical@gmail.com?subject=My%20review&body=Name:%0D%0AComment:')" aria-label = "Review us">Review us</button>
+            <button id = "homeb" onclick = "home();navback()" aria-label = "Go to home">Home</button>
+            <button id = "picturesb" onclick = "pictures();navback()" aria-label = "Go to pictures">Pictures</button>
+            <button id = "contactb" onclick = "contact();navback()" aria-label = "Go to contact">Contact</button>
+            <button id = "reviewb" onclick = "window.open ('mailto:sebastianelectrical@gmail.com?subject=My%20review&body=Name:%0D%0AComment:')" aria-label = "Review us">Review us</button>
             <br>
 	    <br>
 	    <hr id = "hr">
@@ -327,14 +327,26 @@ a:active {
     color:lightgreen;
 }
 		
-#button {
+#homeb, #contactb, #pictureb, #reviewb {
     width:100%;
     height:45px;
     background-color:transparent;
     border:transparent;
 }
 
-#button:hover {
+#homeb:hover {
+    background-color:lightgreen;
+}
+	
+#contactb:hover {
+    background-color:lightgreen;
+}
+		
+#pictureb:hover {
+    background-color:lightgreen;
+}
+	
+#reviewb:hover {
     background-color:lightgreen;
 }
 
