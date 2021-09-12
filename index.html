@@ -18,6 +18,12 @@
         </nav>
         <br>
         <br>
+	<noscript>
+	<div id = "scriptnone">
+		<h1>Javascript Required</h1>
+		<p style = "width:300px;margin-left:auto;margin-right:auto;">This website does not work without Javascript. Enable Javascript then reload the page.</p>
+	</div>
+	</noscript>
         <div id = "navigation">
             <br>
             <button id = "homeb" onclick = "home();navback()" aria-label = "Go to home">Home</button>
@@ -198,6 +204,13 @@
     float:right;
     margin-right:15px;
     margin-top:15px;
+}
+		
+#scriptnone {
+    width:999vh;
+    height:999vh;
+    background:white;
+    position:fixed;
 }
 
 #contact, #pictures {
