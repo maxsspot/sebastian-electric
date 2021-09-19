@@ -31,8 +31,8 @@
 	</noscript>
         <div id = "navigation">
             <br>
-            <button id = "homeb" onclick = "home();navback()" aria-label = "Go to home">Home</button>
-            <button id = "picturesb" onclick = "pictures();navback()" aria-label = "Go to pictures">Pictures</button>
+            <button id = "homeb" onclick = "home()" aria-label = "Go to home">Home</button>
+            <button id = "picturesb" onclick = "pictures()" aria-label = "Go to pictures">Pictures</button>
             <button id = "contactb" onclick = "contact()" aria-label = "Go to contact">Contact</button>
             <button id = "reviewb" onclick = "window.open ('mailto:sebastianelectrical@gmail.com?subject=My%20review&body=Name:%0D%0AComment:')" aria-label = "Review us">Review us</button>
             <br>
@@ -104,12 +104,6 @@
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
                 document.getElementById ("nav2").style.display = "block";
-            }
-
-            function navback () {
-                document.getElementById ("nav").style.display = "block";
-                document.getElementById ("navigation").style.marginLeft = "-100%";
-		document.getElementById ("nav2").style.display = "none";
             }
             
             function contact () {
