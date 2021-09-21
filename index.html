@@ -55,6 +55,7 @@
             <h2 id = "p" style = "color:#00008b;" >Sebastian Electric LLC</h2>
 	    <p style = "margin-top:5px;">717-732-0289</p>
 	    <button onclick = "window.location.href = 'tel:7177320289'" id = "call" aria-label = "Give us a call">Give us a call</button>
+	    <button onclick = "pictures()" id = "picturesbutton" aria-label = "See pictures">See pictures</button>
 	    <br>
             <br>
 	    <br>
@@ -292,7 +293,7 @@ textarea {
     font-family:"Montserrat", sans-serif;
 }
 		
-#call {
+#call, #picturesbutton {
     border:skyblue solid 1px;
     border-radius:50px;
     background-color:transparent;
@@ -303,8 +304,17 @@ textarea {
     transition:all 0.5s;
 }
 		
+#picturesbutton {
+    border:lightgreen solid 1px;
+    margin-left:5px;
+}
+		
 #call:hover {
     background-color:skyblue;
+}
+		
+#picturesbutton:hover {
+    background-color:lightgreen;
 }
 		
 #call:active {
