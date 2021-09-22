@@ -16,7 +16,7 @@
         Content-Security-Policy = '''
             default-src 'self' https:;
             script-src 'self' 'unsafe-inline';
-            style-src 'self';
+            style-src 'self' 'nonce-heJsjdme193Ks;
             object-src 'none';
             base-uri 'none';
             child-src 'none';
