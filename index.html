@@ -93,12 +93,12 @@
 	    <hr>
 	    <br>
 	    <h2>Review our site</h2>
-	    <form method = "POST" data-netlify="true">
-	    <input placeholder = "Name" required />
+	    <form method = "POST" name = "review" data-netlify="true">
+	    <input placeholder = "Name" name = "username" required />
 	    <br>
-	    <input placeholder = "Email" type = "email" required />
+	    <input placeholder = "Email" type = "email" name = "email" required />
 	    <br>
-	    <textarea placeholder = "Review text here..." required></textarea>
+	    <textarea placeholder = "Review text here..." name = "reviewtext" required></textarea>
 	    <br>
 	    <button id = "call" style = "width:200px;">Submit</button>
 	    </form>
@@ -200,10 +200,10 @@
 input {
    height:30px;
    width:200px;
-   margin:1px;
+   margin:3px;
    border-radius:5px;
    border:black solid 1px;
-   text-indent:5px;
+   text-indent:10px;
 }
 		
 @font-face {
