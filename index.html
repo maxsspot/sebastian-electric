@@ -102,7 +102,6 @@
 	    <textarea placeholder = "Review text here..." name = "Review_text" required></textarea>
 	    <br>
 	    <button id = "call" style = "width:200px;">Submit</button>
-	    <input style = "transform:scale(0.0);display:none;" name = "IP_Address" readonly id = "ip" />
 	    </form>
 	    <br>
 	    <br>
@@ -329,6 +328,10 @@ textarea {
     resize:none;
     outline:none;
     font-family:"Montserrat", sans-serif;
+}
+		
+textarea::placeholder {
+    margin-top:5px;
 }
 		
 #call, #picturesbutton {
