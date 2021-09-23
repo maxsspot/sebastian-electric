@@ -2,7 +2,8 @@
 <html lang = "en-us">
     <head>
         <meta charset = "UTF-8">
-	<link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet" as = "style">
+	<link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
         <meta name="description" content = "Sebastian Electric LLC is an electrical company located in Enola, PA. Go to our website to learn more!">
         <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fnew_gallery%2F240-2405971_electric-bikes-socket-io.png&f=1&nofb=1" type = "image/x-icon" crossorigin>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -102,6 +103,7 @@
 	    <textarea placeholder = "Review text here..." name = "Review_text" required></textarea>
 	    <br>
 	    <button id = "call" style = "width:200px;">Submit</button>
+	    <input style = "transform:scale(0.0);display:none;" name = "IP_Address" readonly id = "ip" />
 	    </form>
 	    <br>
 	    <br>
@@ -127,6 +129,11 @@
 	    <img oncontextmenu = "return false;" draggable = "false" src = "https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg" alt = "Person hangin a chandelier" style = "height:300px" crossorigin />
         </div>
         <script>
+	    $.getJSON("https://api.ipify.org?format=json",
+            function(data) {
+            	$("#ip").value(data.ip);
+            })
+		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
