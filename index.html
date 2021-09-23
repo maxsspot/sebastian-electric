@@ -90,6 +90,13 @@
             <label style = "color:green;font-size:24px;">Kindness</label>
             <br>
             <br>
+	    <h2>Review our site</h2>
+	    <form method = "POST" data-netlify="true">
+	    <input placeholder = "Name" required />
+	    <input placeholder = "Email" type = "email" required />
+	    <textarea placeholder = "Review text here..." required></textarea>
+	    <button id = "call">Submit</button>
+	    </form>
         </div>
         <div id = "contact">
             <h2 id = "p">Contact us</h2>
@@ -111,7 +118,7 @@
 	    <br>
 	    <img oncontextmenu = "return false;" draggable = "false" src = "https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg" alt = "Person hangin a chandelier" style = "height:300px" crossorigin />
         </div>
-        <script nonce = "2726c7f26c">
+        <script>
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
@@ -161,7 +168,7 @@
 		document.getElementById ("loader").style.visibility = "hidden";
 	    }								    
         </script>
-        <style nonce = "heJsjdme193Ks8">
+        <style>
             * {
     margin:0;
     padding:0;
