@@ -174,7 +174,13 @@
 		
 	    function loadedpage() {
 		document.getElementById ("loader").style.visibility = "hidden";
-	    }								    
+	    }		
+		
+	    if (navigator.onLine) {
+    		
+	    } else {
+    		alert('Unstable internet connection. Some website features may not work.');
+	    }
         </script>
         <style>
             * {
