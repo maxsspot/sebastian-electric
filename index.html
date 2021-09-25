@@ -93,13 +93,15 @@
 	    <br>
 	    <br>
 	    <h2>Review our site</h2>
-	    <form method = "POST" name = "Review" data-netlify = "true" netlify-honeypot = "bot-field" action = "reviewsubmitted.html">
+	    <form method = "POST" name = "Review" data-netlify = "true" netlify-honeypot = "bot-field" data-netlify-recaptcha = "true" action = "reviewsubmitted.html">
 	    <input name = "bot-field" style = "transform:scale(0.0);width:0px;height:0px;margin-left:-10px;" />
 	    <input placeholder = "Name" name = "Username" required />
 	    <br>
 	    <input placeholder = "Email" type = "email" name = "Email" required />
 	    <br>
 	    <textarea placeholder = "Review text here..." name = "Review_text" required></textarea>
+	    <br>
+	    <div data-netlify-recaptcha = "true"></div>
 	    <br>
 	    <button id = "call" style = "width:200px;">Submit</button>
 	    </form>
