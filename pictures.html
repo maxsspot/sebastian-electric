@@ -1,10 +1,60 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Sebastian Electric LLC - Pictures</title>
+<html lang = "en-us">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="google-site-verification" content="fO89aSSHn9RzYMLWCImekaLjOferGyCbAVAZTP-cOnI" />
+        <meta name="msvalidate.01" content="0DF23C27361579E6820ACC9E86FA0FC5" />
+	<link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
+        <meta name="description" content = "Sebastian Electric LLC is an father and son owned electrical company.  Go to our website to learn more!">
+        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fnew_gallery%2F240-2405971_electric-bikes-socket-io.png&f=1&nofb=1" type = "image/x-icon" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sebastian Electric LLC</title>
     </head>
-<body> 
-<div id = "pictures">
+    <body onload = "loadedpage()">
+        <nav id = "navheader">
+	    <button id = "nav" onclick = "nav()" aria-label = "Open navigation"><i class = "fas fa-grip-lines fa-lg"></i></button>
+            <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review" style = "border-bottom:transparent;" aria-label = "Our Facebook reviews" rel = "noreferrer">Reviews</a>	
+            <button id = "nav2" onclick = "navback()" aria-label = "Close navigation"><i class="fas fa-times fa-lg"></i></button>
+            <label id = "title">Sebastian Electric LLC</label>
+        </nav>
+        <br>
+        <br>
+	<noscript>
+	<div id = "scriptnone">
+		<style>
+			#loader {
+				display:none;
+			}
+		</style>
+		<br>
+		<h1>Javascript Required</h1>
+		<p style = "width:300px;margin-left:auto;margin-right:auto;">This website does not work without Javascript. Enable Javascript then reload the page.</p>
+	</div>
+	</noscript>
+        <div id = "navigation">
+            <button id = "homeb" onclick = "home()" aria-label = "Go to home">Home</button>
+	    <form action = "pictures.html">
+            <button id = "picturesb" onclick = "pictures()" aria-label = "Go to pictures">Pictures</button>
+	    </form>
+            <button id = "contactb" onclick = "contact()" aria-label = "Go to contact">Contact</button>
+            <br>
+	    <br>
+	    <!--
+	    <hr id = "hr">
+	    <br>
+	    <h2>Share our website</h2>
+	    <br>
+	    <a href = "mailto:?subject=Visit the Sebastian Electric website!&body=https://www.sebastianelectric.org" style = "margin:5px;" target = "_blank" rel="noreferrer" aria-label = "Share website via EMAIL"><i class = "fas fa-envelope fa-lg"></i></a>
+	    <a href = "sms://+?body+Visit the Sebastia Electric website! https://www.sebastianelectric.org" style = "margin:5px;" rel="noreferrer" target = "_blank" aria-label = "Share website via SMS"><i class = "fas fa-sms fa-lg"></i></a>
+	    -->
+	</div>
+        <br>
+	<br>
+	<br>
+        <div id = "loader">
+	</div>
+        <div id = "pictures">
             <h2 id = "p">Pictures</h2> 
             <img style = "height:250px;" oncontextmenu = "return false;" draggable = "false" src = "https://s3-media0.fl.yelpcdn.com/bphoto/UaLg-7MI_zi72rRFfqdiWg/ls.jpg" alt = "Kids infront of a Sebastian Electric truck." crossorigin />
 	    <br>
@@ -18,5 +68,328 @@
 	    <br>
 	    <img oncontextmenu = "return false;" draggable = "false" src = "https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg" alt = "Person hangin a chandelier" style = "height:300px" crossorigin />
         </div>
-</body>
+        <script>	
+ 	    console.log ("Images on this website should not be copied.");
+            function nav () {
+                document.getElementById ("nav").style.display = "none";
+                document.getElementById ("navigation").style.marginLeft = "0px";
+                document.getElementById ("nav2").style.display = "block";
+            }
+		
+	    function navback () {
+                document.getElementById ("nav").style.display = "block";
+                document.getElementById ("navigation").style.marginLeft = "-100%";
+                document.getElementById ("nav2").style.display = "none";
+            }
+		
+	    function loadedpage() {
+		document.getElementById ("loader").style.visibility = "hidden";
+	    }		
+        </script>
+        <style>
+            * {
+    margin:0;
+    padding:0;
+}
+	
+
+		
+#star {
+    float:right;
+    margin-right:15px;
+    margin-top:15px;
+}
+		
+.inline-block {
+   display: inline-block;
+}
+		
+#scriptnone {
+    width:100%;
+    height:999vh;
+    background:white;
+    position:fixed;
+    margin-top:-37.5px;
+}
+		
+input {
+   height:30px;
+   width:200px;
+   margin:3px;
+   border-radius:5px;
+   border:gainsboro solid 2px;
+   text-indent:10px;
+   background-color:gainsboro;
+}
+		
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_cJD3gTD_u50.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_cJD3g3D_u50.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_cJD3gbD_u50.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#contact, #pictures {
+    display:none;
+}
+
+body {
+    font-family:"Montserrat", sans-serif;
+    text-align:center;
+    transition:all 1s;
+}
+
+#navheader {
+    width:100%;
+    height:50px;
+    background-color:whitesmoke;
+    position:fixed;
+    transition:all 1s;
+}
+
+#navigation {
+    width:100%;
+    background-color:whitesmoke;
+    height:999vh;
+    margin-left:-100%;
+    transition:all 1s;
+    position:fixed;
+    margin-top:10px;
+}
+
+#review {
+    display:none;
+}
+		
+#textcall {
+    color:#1b1b1b;
+}
+
+#nav, #nav2 {
+    width:40px;
+    height:40px;
+    background-color:transparent;
+    border:transparent;
+    margin-left:10px;
+    margin-top:5px;
+    border-radius:50px;
+    float:left;
+}
+
+a {
+    color:green;
+    text-decoration:none;
+    transition:all 0.5s;
+}
+            
+#loader {
+    width:150px;
+    height:150px;
+    border-radius:0px;
+    transition:all 0.25s;
+    background-color:whitesmoke;
+    animation:loadwebsite 2.5s infinite;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}			    
+
+textarea {
+    width:200px;
+    height:100px;
+    border-radius:5px;
+    border:gainsboro solid 2px;
+    background-color:gainsboro;
+    text-indent:10px;
+    resize:none;
+    outline:none;
+    font-family:"Montserrat", sans-serif;
+    margin-top:3px;
+}
+		
+#call, #picturesbutton {
+    border:skyblue solid 1px;
+    border-radius:50px;
+    background-color:transparent;
+    height:35px;
+    color:#1b1b1b;
+    width:150px;
+    margin-top:5px;
+    transition:all 0.5s;
+}
+		
+input:focus {
+    border:lightgreen solid 2px;
+}
+		
+textarea:focus {
+    border:lightgreen solid 2px;
+}
+		
+#picturesbutton {
+    border:lightgreen solid 1px;
+    margin-left:5px;
+}
+		
+#call:hover {
+    background-color:skyblue;
+}
+		
+#picturesbutton:hover {
+    background-color:lightgreen;
+}
+		
+#call:active {
+
+}
+
+#what {
+    background-color:gainsboro;
+    width:100%;
+}
+
+@keyframes loadwebsite {
+    0% {
+        border-radius:0px;
+    }
+
+    50% {
+        border-radius:50%;
+    }
+
+    100% {
+        border-radius:0px;
+    }
+}
+
+hr {
+    width:95%;
+    background-color:gainsboro;
+    border:gainsboro solid 1px;
+    border-radius:50px;
+    margin-left:auto;
+    margin-right:auto;
+    transition:all 1s;
+}
+		
+a:active {
+    color:lightgreen;
+}
+		
+#homeb, #contactb, #picturesb, #reviewb {
+    width:100%;
+    height:45px;
+    background-color:transparent;
+    border:transparent;
+}
+
+#homeb:hover {
+    background-color:lightgreen;
+}
+	
+#contactb:hover {
+    background-color:lightgreen;
+}
+		
+#picturesb:hover {
+    background-color:lightgreen;
+}
+	
+#reviewb:hover {
+    background-color:lightgreen;
+}
+
+/*
+#button:active {
+    background-color:lightgray;
+}
+*/
+
+#nav2 {
+    display:none;
+            }
+
+#nav:hover {
+    background-color:gainsboro;
+}
+
+#nav:active {
+    background-color:lightgray;
+}
+
+img {
+    width:300px;
+    margin-left:auto;
+    height:225px;
+    margin-right:auto;
+    margin:5px;
+    border-radius:10px;
+}
+
+#nav2:hover {
+    background-color:gainsboro;
+}
+
+#nav2:active {
+    background-color:lightgray;
+}
+
+button {
+    cursor:pointer;
+}
+
+button, input {
+    outline:none;
+    transition:all 0.25s;
+    font-family:"Montserrat", sans-serif;
+}
+
+#title {
+    transform:scale(1.1);
+    float:left;
+    margin-left:15px;
+    margin-top:14px;
+    cursor:text;
+}
+        </style>
+    </body>
 </html>
