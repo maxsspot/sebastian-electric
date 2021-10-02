@@ -1,0 +1,54 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "deny"
+        X-XSS-Protection = "1; mode=block"
+        Cache-Control = "no-cache"
+        X-Content-Type-Options = "nosniff"
+        Connection = "keep-alive"
+        Referrer-Policy = "no-referrer"
+        Expect-CT = "enforce, max-age=31536000 report-uri https://maxsspot.report-uri.com/r/d/ct/enforce"
+        Cross-Origin-Opener-Policy = "same-origin"
+        Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Embedder-Policy = "unsafe-none"
+        Host = "www.sebastianelectric.org"
+        Vary = "Upgrade-Insecure-Requests"
+        Strict-Transport-Security = '''
+            max-age=31536000;
+            preload'''
+            includeSubDomains
+        '''
+        Content-Security-Policy = '''
+            default-src 'self' https:;
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
+            object-src 'none';
+            base-uri 'none';
+            frame-src 'none';
+            manifest-src 'none';
+            upgrade-insecure-requests;
+        '''
+        Permissions-Policy = '''
+            accelerometer=(none),
+            ambient-light-sensor=(none),
+            autoplay=(none),
+            camera=(none),
+            encrypted-media=(none),
+            fullscreen=(none),
+            geolocation=(none),
+            gyroscope=(none),
+            magnetometer=(none),
+            microphone=(none),
+            midi=(none),
+            payment=(none),
+            picture-in-picture=(none),
+            speaker=(none),
+            usb=(none),
+            vibrate=(none),
+            vr=(none)
+        '''
+ 
+        [[redirects]]
+        from = "/*"
+        to = "/pagenotfound.html"
+        status = 404
