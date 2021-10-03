@@ -79,7 +79,9 @@
 		
 	    function loadedpage() {
 		document.getElementById ("loader").style.visibility = "hidden";
-	    }		
+	    }	
+	    var newURL = location.href.split("?")[0];
+window.history.pushState('object', document.title, newURL);
         </script>
         <style>
             * {
