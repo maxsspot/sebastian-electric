@@ -22,7 +22,7 @@
             frame-src 'none';
             manifest-src 'none';
             media-src 'none';
-            form-action 'index.html' 'contact' 'pictures' 'review-submitted.html';
+            form-action 'index.html' 'contact.html' 'pictures.html' 'review-submitted.html';
             upgrade-insecure-requests;
         '''
         Permissions-Policy = '''
