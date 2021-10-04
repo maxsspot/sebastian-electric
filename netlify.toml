@@ -13,7 +13,16 @@
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "www.sebastianelectric.org"
         Vary = "Upgrade-Insecure-Requests"
-
+        Content-Security-Policy = '''
+            default-src 'self' https:;
+            script-src 'self' 'style.css';
+            style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
+            object-src 'none';
+            base-uri 'none';
+            frame-src 'none';
+            manifest-src 'none';
+            upgrade-insecure-requests;
+        '''
         Permissions-Policy = '''
             accelerometer=(none),
             ambient-light-sensor=(none),
