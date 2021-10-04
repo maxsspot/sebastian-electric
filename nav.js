@@ -10,3 +10,7 @@
                 document.getElementById ("navigation").style.marginLeft = "-100%";
                 document.getElementById ("nav2").style.display = "none";
             }
+
+	    function loadedpage() {
+		document.getElementById ("loader").style.visibility = "hidden";
+	    }	
