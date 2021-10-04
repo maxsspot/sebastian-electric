@@ -15,7 +15,7 @@
         Vary = "Upgrade-Insecure-Requests"
         Content-Security-Policy = '''
             default-src 'self' https:;
-            script-src 'self' 'strict-dynamic';
+            script-src 'self' 'nonce-u2JdalJSkam3' 'strict-dynamic';
             style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
             base-uri 'none';
