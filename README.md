@@ -1,1 +1,1 @@
-A website I made for my friends business. 
+A website I made for my friends business.
