@@ -13,11 +13,6 @@
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "www.sebastianelectric.org"
         Vary = "Upgrade-Insecure-Requests"
-        Strict-Transport-Security = '''
-            max-age=31536000;
-            includeSubDomains;
-            preload'''
-        '''
 
         Permissions-Policy = '''
             accelerometer=(none),
