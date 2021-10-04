@@ -21,7 +21,7 @@
             base-uri 'none';
             frame-src 'none';
             manifest-src 'none';
-            img-src 'https://s3-media0.fl.yelpcdn.com/'
+            img-src 'https://s3-media0.fl.yelpcdn.com/bphoto/UaLg-7MI_zi72rRFfqdiWg/ls.jpg';
             upgrade-insecure-requests;
         '''
         Permissions-Policy = '''
