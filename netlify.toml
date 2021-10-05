@@ -30,6 +30,7 @@
             ambient-light-sensor=(none),
             autoplay=(none),
             camera=(none),
+            interest-cohort=(none),
             encrypted-media=(none),
             fullscreen=(none),
             geolocation=(none),
