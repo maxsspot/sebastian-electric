@@ -72,12 +72,20 @@
 	</div>
         <div id = "contact">
           <h2>Admin</h2>
-          <input placeholder = "Password" type = "password" />
+          <input placeholder = "Password" type = "password" id = "password" />
           <br>
-          <button id = "call" style = "width:200px">Log in</button>
+          <button id = "call" style = "width:200px" onclick = "verify()">Log in</button>
         </div>
         <script>	
  	    console.log ("Images on this website should not be copied.");
+	    function verify () {
+	    var password = "testing123";
+	    var guess = document.getElementById ("password").value;
+		
+	    if (password == guess) {
+		alert("test worked");    
+	    }}
+		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
