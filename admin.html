@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y3M8QTBX56');
+</script>
+        <meta charset = "UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "nothome.css">
+        <meta name="google-site-verification" content="fO89aSSHn9RzYMLWCImekaLjOferGyCbAVAZTP-cOnI" />
+        <meta name="msvalidate.01" content="0DF23C27361579E6820ACC9E86FA0FC5" />
+	<link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
+        <meta name="description" content = "Sebastian Electric LLC is an father and son owned electrical company.  Go to our website to learn more!">
+        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fnew_gallery%2F240-2405971_electric-bikes-socket-io.png&f=1&nofb=1" type = "image/x-icon" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sebastian Electric LLC - Contact</title>
+    </head>
+    <body onload = "loadedpage()">
+        <nav id = "navheader">
+	    <button id = "nav" onclick = "nav()" aria-label = "Open navigation"><i class = "fas fa-grip-lines fa-lg"></i></button>
+            <a href = "https://m.facebook.com/SebastianElectricService/reviews" target = "_blank" id = "star" id = "review" style = "border-bottom:transparent;" aria-label = "Our Facebook reviews" rel = "noreferrer">Reviews</a>	
+            <button id = "nav2" onclick = "navback()" aria-label = "Close navigation"><i class="fas fa-times fa-lg"></i></button>
+            <label id = "title">Sebastian Electric LLC</label>
+        </nav>
+        <br>
+        <br>
+	<noscript>
+	<div id = "scriptnone">
+		<style>
+			#loader {
+				display:none;
+			}
+		</style>
+		<br>
+		<h1>Javascript Required</h1>
+		<p style = "width:300px;margin-left:auto;margin-right:auto;">This website does not work without Javascript. Enable Javascript then reload the page.</p>
+	</div>
+	</noscript>
+        <div id = "navigation">
+	    <form action = "index">
+            <button id = "homeb" onclick = "home()" aria-label = "Go to home">Home</button>
+	    </form>
+	    <form action = "pictures">
+            <button id = "picturesb" onclick = "pictures()" aria-label = "Go to pictures">Pictures</button>
+	    </form>
+            <form method = "contact">
+            <button id = "contactb" onclick = "contact()" aria-label = "Go to contact">Contact</button>
+            </form>
+	    <form action = "privacy-policy">
+            <button id = "contactb" onclick = "contact()" aria-label = "Go to privacy policy">Privacy policy</button>
+            </form>
+            <br>
+	    <br>
+	    <!--
+	    <hr id = "hr">
+	    <br>
+	    <h2>Share our website</h2>
+	    <br>
+	    <a href = "mailto:?subject=Visit the Sebastian Electric website!&body=https://www.sebastianelectric.org" style = "margin:5px;" target = "_blank" rel="noreferrer" aria-label = "Share website via EMAIL"><i class = "fas fa-envelope fa-lg"></i></a>
+	    <a href = "sms://+?body+Visit the Sebastia Electric website! https://www.sebastianelectric.org" style = "margin:5px;" rel="noreferrer" target = "_blank" aria-label = "Share website via SMS"><i class = "fas fa-sms fa-lg"></i></a>
+	    -->
+	</div>
+        <br>
+	<br>
+	<br>
+        <div id = "loader">
+	</div>
+        <div id = "contact">
+          <h2>Admin</h2>
+          <input placeholder = "Password" type = "passwprd" />
+          <br>
+          <button>Log in</button>
+        </div>
+        <script>	
+ 	    console.log ("Images on this website should not be copied.");
+            function nav () {
+                document.getElementById ("nav").style.display = "none";
+                document.getElementById ("navigation").style.marginLeft = "0px";
+                document.getElementById ("nav2").style.display = "block";
+            }
+		
+	    function navback () {
+                document.getElementById ("nav").style.display = "block";
+                document.getElementById ("navigation").style.marginLeft = "-100%";
+                document.getElementById ("nav2").style.display = "none";
+            }
+		
+	    function loadedpage() {
+		document.getElementById ("loader").style.visibility = "hidden";
+	    }	
+	    var newURL = location.href.split("?")[0];
+window.history.pushState('object', document.title, newURL);
+        </script>
+        <style>
+       
+        </style>
+    </body>
+</html>
