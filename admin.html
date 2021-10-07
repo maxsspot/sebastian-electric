@@ -41,6 +41,10 @@
 		<p style = "width:300px;margin-left:auto;margin-right:auto;">This website does not work without Javascript. Enable Javascript then reload the page.</p>
 	</div>
 	</noscript>
+	<div id = "scriptnone">
+		<h2>This part of the site in under development</h2>
+		<a onclick = "continue()">Continue</a>
+	</div>
         <div id = "navigation">
 	    <form action = "index">
             <button id = "homeb" onclick = "home()" aria-label = "Go to home">Home</button>
@@ -85,6 +89,9 @@
         <script>	
  	    console.log ("Images on this website should not be copied.");
 	    document.getElementById ("admin_screen").style.display = "none";
+	    function continue () {
+		document.getElementById ("scriptnone").style.transform = "scale(0.0)";    
+	    }
 	    function verify () {
 	    var password = "fordt150";
 	    var guess = document.getElementById ("password").value;
