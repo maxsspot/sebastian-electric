@@ -80,7 +80,7 @@
           <button id = "call" style = "width:200px" onclick = "verify()">Log in</button>
         </div>
 	<div id = "admin_screen">
-		
+		<a onclick = "lock()"><i class="fas fa-lock"></i></a>
 	</div>
         <script>	
  	    console.log ("Images on this website should not be copied.");
@@ -94,6 +94,12 @@
 		document.getElementById ("admin_login").style.display = "none";
 		document.title = "Sebastian Electric LLC - About Employees";
 	    }}
+		
+	    function lock () {
+		document.getElementById ("admin_screen").style.display = "none";
+		document.getElementById ("admin_login").style.display = "block";
+		document.title = "Sebastian Electric LLC - Admin Login";
+	    }
 		
             function nav () {
                 document.getElementById ("nav").style.display = "none";
