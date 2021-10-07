@@ -73,20 +73,25 @@
 	<br>
         <div id = "loader">
 	</div>
-        <div id = "contact">
+        <div id = "admin_login">
           <h2>Admin</h2>
           <input placeholder = "Password" type = "password" id = "password" />
           <br>
           <button id = "call" style = "width:200px" onclick = "verify()">Log in</button>
         </div>
+	<div id = "admin_screen">
+		<h2>About employees</h2>
+	</div>
         <script>	
  	    console.log ("Images on this website should not be copied.");
+	    document.getElementById ("admin_screen").style.display = "none";
 	    function verify () {
 	    var password = "fordt150";
 	    var guess = document.getElementById ("password").value;
 		
 	    if (password == guess) {
-		alert("test worked");    
+		document.getElementById ("admin_screen").style.display = "block";
+		document.getElementById ("admin_login").style.display = "none";
 	    }}
 		
             function nav () {
