@@ -6,6 +6,7 @@
         Cache-Control = "no-cache"
         X-Content-Type-Options = "nosniff"
         X-Forwarded-Proto = "https"
+        X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
         Connection = "keep-alive"
         X-Download-Options = "noopen"
