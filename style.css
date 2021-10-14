@@ -234,11 +234,11 @@ a:active {
 }
 
 #homeb:hover {
-    background-color:lightgreen;
+    border-bottom:black solid 1px;
 }
 	
 #contactb:hover {
-    background-color:lightgreen;
+    border-bottom:black solid 1px;
 }
 		
 #picturesb:hover {
