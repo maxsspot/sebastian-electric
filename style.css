@@ -238,15 +238,15 @@ a:active {
 }
 	
 #contactb:hover {
-    background-color:lightgreen;
+    text-decoration:underline;
 }
 		
 #picturesb:hover {
-    background-color:lightgreen;
+    text-decoration:underline;
 }
 	
 #reviewb:hover {
-    background-color:lightgreen;
+    text-decoration:underline;
 }
 
 /*
