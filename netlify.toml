@@ -31,6 +31,7 @@
             object-src 'none';
             base-uri 'none';
             frame-src 'none';
+            child-src 'none'
             manifest-src 'none';
             media-src 'none';
             upgrade-insecure-requests;
