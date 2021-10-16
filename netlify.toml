@@ -4,8 +4,7 @@
         X-Frame-Options = "deny"
         X-XSS-Protection = "1; mode=block"
         Cache-Control = "no-cache"
-        Pragma = "no-cache:
-        Origin = "www.sebastianelectric.org"
+        Pragma = "no-cache"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
         X-Forwarded-Proto = "https"
