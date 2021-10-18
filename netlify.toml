@@ -4,6 +4,7 @@
         X-Frame-Options = "deny"
         X-XSS-Protection = "1; mode=block"
         Cache-Control = "no-cache"
+        Proxy-Authenticate = "Basic"
         Pragma = "no-cache"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
