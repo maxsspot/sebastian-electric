@@ -8,7 +8,7 @@
         Pragma = "no-cache"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
-        Upgrade-Insecure-Requests: 1
+        Upgrade-Insecure-Requests = "1"
         Content-Language = "en-US"
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
