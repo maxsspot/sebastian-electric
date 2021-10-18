@@ -8,7 +8,10 @@
         Pragma = "no-cache"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
-        X-Forwarded-Proto = "https"
+        Front-End-Https: on
+        X-Forwarded-Protocol: https
+        X-Forwarded-Ssl: on
+        X-Url-Scheme: https
         Content-Language = "en-US"
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
