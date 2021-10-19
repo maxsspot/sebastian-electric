@@ -3,9 +3,9 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1; mode=block"
-        Cache-Control = "no-cache"
+        Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
-        Pragma = "no-cache"
+        Pragma = "must-revalidate"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
         Upgrade-Insecure-Requests = "1"
