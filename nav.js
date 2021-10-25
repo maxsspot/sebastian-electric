@@ -17,12 +17,12 @@
 
 
 	    function saveInfo () {
-		var name = document.getElementById ("name").value;
+		var name = document.getElementById ("usersname").value;
 		var email = document.getElementById ("email").value;
 		    
-		var namevalue = document.cookie = 'name=' + username + '; secure';
+		var namevalue = document.cookie = 'name=' + name + '; secure';
 		var emailvalue = document.cookie = 'email=' + email + '; secure';
 		    
-		document.getElementById ("name").value = namevalue;
-		document.getElementById ("email").value = emailvalue;
+		name.value = namevalue;
+		email.value = emailvalue;
 	    }
