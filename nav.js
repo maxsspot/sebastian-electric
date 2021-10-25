@@ -14,3 +14,14 @@
 	    function loadedpage() {
 		document.getElementById ("loader").style.visibility = "hidden";
 	    }	
+
+	    function saveInfo () {
+		var usersname = document.getElementById ("usersname").value;
+		var email = document.getElementById ("email").value;
+		    
+		var namevalue = document.cookie = "name=" + usersname + "; secure; HttpOnly";
+		var emailvalue = document.cookie = "email=" + email + "; secure; HttpOnly";
+		    
+		usersname.value = namevalue;
+		email.value = emailvalue;
+	    }
