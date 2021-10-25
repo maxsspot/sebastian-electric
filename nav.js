@@ -19,8 +19,8 @@
 		var usersname = document.getElementById ("usersname").value;
 		var email = document.getElementById ("email").value;
 		    
-		var namevalue = document.cookie = 'name=' + usersname + '; secure; HttpOnly';
-		var emailvalue = document.cookie = 'email=' + email + '; secure; HttpOnly';
+		var namevalue = document.cookie = 'name=' + usersname + '; secure';
+		var emailvalue = document.cookie = 'email=' + email + '; secure';
 		    
 		document.getElementById ("usersname").value = namevalue;
 		document.getElementById ("email").value = emailvalue;
