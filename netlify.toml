@@ -40,24 +40,7 @@
             upgrade-insecure-requests;
         '''
         Permissions-Policy = '''
-            accelerometer=(none),
-            ambient-light-sensor=(none),
-            autoplay=(none),
-            camera=(none),
-            interest-cohort=(none),
-            encrypted-media=(none),
-            fullscreen=(none),
-            geolocation=(none),
-            gyroscope=(none),
-            magnetometer=(none),
-            microphone=(none),
-            midi=(none),
-            payment=(none),
-            picture-in-picture=(none),
-            speaker=(none),
-            usb=(none),
-            vibrate=(none),
-            vr=(none)
+            interest-cohort=(none)
         '''
  
         [[redirects]]
