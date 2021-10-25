@@ -22,6 +22,6 @@
 		var namevalue = document.cookie = "name=" + usersname + "; secure; HttpOnly";
 		var emailvalue = document.cookie = "email=" + email + "; secure; HttpOnly";
 		    
-		usersname.value = namevalue;
-		email.value = emailvalue;
+		document.getElementById ("usersname").value = namevalue;
+		document.getElementById ("email").value = emailvalue;
 	    }
