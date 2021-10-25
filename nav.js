@@ -23,6 +23,6 @@
 		var namevalue = document.cookie = 'name=' + name + '; secure';
 		var emailvalue = document.cookie = 'email=' + email + '; secure';
 		    
-		name.value = namevalue;
-		email.value = emailvalue;
+		var name = document.getElementById ("usersname").value = namevalue;
+		var email = document.getElementById ("email").value = emailvalue;
 	    }
