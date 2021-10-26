@@ -127,7 +127,7 @@
 	    <br>
 	    <br>
 	    <h2>Review our site</h2>
-	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "bot-field" action = "submitted.html">
+	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "bot-field" action = "submitted.html" data-netlify-recaptcha = "true">
 	    <input name = "bot-field" style = "display:none;" />
 	    <input placeholder = "Name" id = "usersname" name = "Name" autocomplete = "off" required />
 	    <br>
@@ -135,6 +135,7 @@
  	    <br>
 	    <textarea placeholder = "Review text here..." name = "Review Text" required></textarea>
 	    <br>
+	    <div data-netlify-recaptcha="true" class="form-row"></div>
 	    <button id = "call" style = "width:204px;border-radius:5px;">Submit</button>
 	    </form>
 	    <br>
