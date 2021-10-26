@@ -129,13 +129,13 @@
 	    <h2>Review our site</h2>
 	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "bot-field" action = "submitted.html">
 	    <input name = "bot-field" style = "display:none;" />
-	    <input placeholder = "Name" id = "usersname" name = "UName" required onkeyup='saveValue(this);' />
+	    <input placeholder = "Name" id = "usersname" name = "Name" autocomplete = "off" required />
 	    <br>
-	    <input placeholder = "Email" id = "email" type = "email" name = "Email" required onkeyup='saveValue(this);' />
+	    <input placeholder = "Email" id = "email" type = "email" name = "Email" autocomplete = "off" required />
  	    <br>
 	    <textarea placeholder = "Review text here..." name = "Review Text" required></textarea>
 	    <br>
-	    <button id = "call" style = "width:204px;border-radius:5px;" onclick = "saveInfo()">Submit</button>
+	    <button id = "call" style = "width:204px;border-radius:5px;">Submit</button>
 	    </form>
 	    <br>
 	    <br>
