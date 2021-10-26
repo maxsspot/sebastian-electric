@@ -29,11 +29,10 @@
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
-            
             style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
             base-uri 'none';
-            frame-src 'none';
+            frame-src 'none' https://www.google.com/recaptcha/api.js;
             child-src 'none'
             manifest-src 'none';
             media-src 'none';
