@@ -29,7 +29,7 @@
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
-            script-src 'self' 'nav.js' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ nav.js;
+            script-src 'self' 'nonce-rJsmdke110@ja' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ nav.js;
             style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
             base-uri 'none';
