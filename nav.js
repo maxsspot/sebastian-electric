@@ -14,3 +14,8 @@
 	    function loadedpage() {
 		document.getElementById ("loader").style.visibility = "hidden";
 	    }	
+if(crossOriginIsolated) {
+  alert("We are cross origin isolated!");
+} else {
+  // Do something else
+}
