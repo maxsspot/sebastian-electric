@@ -235,10 +235,12 @@ a:active {
 
 #homeb:hover {
     text-decoration:underline;
+    color:yellow;
 }
 	
 #contactb:hover {
     text-decoration:underline;
+    color:yellow;
 }
 		
 #picturesb:hover {
