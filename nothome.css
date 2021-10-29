@@ -224,9 +224,6 @@ hr {
     transition:all 1s;
 }
 		
-a:active {
-    color:lightgreen;
-}
 		
 #homeb, #contactb, #picturesb, #reviewb {
     width:100%;
@@ -236,19 +233,19 @@ a:active {
 }
 
 #homeb:hover {
-    text-decoration:underline;
+    color:green;
 }
 	
 #contactb:hover {
-    text-decoration:underline;
+    color:green;
 }
 		
 #picturesb:hover {
-    text-decoration:underline;
+    color:green;
 }
 	
 #reviewb:hover {
-    text-decoration:underline;
+    color:green;
 }
 
 /*
