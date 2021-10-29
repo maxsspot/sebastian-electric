@@ -234,21 +234,19 @@ a:active {
 }
 
 #homeb:hover {
-    text-decoration:underline;
-    color:yellow;
+    color:green;
 }
 	
 #contactb:hover {
-    text-decoration:underline;
-    color:yellow;
+    color:green;
 }
 		
 #picturesb:hover {
-    text-decoration:underline;
+    color:green;
 }
 	
 #reviewb:hover {
-    text-decoration:underline;
+    color:green;
 }
 
 /*
