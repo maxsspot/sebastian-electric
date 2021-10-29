@@ -221,10 +221,7 @@ hr {
     margin-right:auto;
     transition:all 1s;
 }
-		
-a:active {
-    color:lightgreen;
-}
+
 		
 #homeb, #contactb, #picturesb, #reviewb {
     width:100%;
