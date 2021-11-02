@@ -11,6 +11,7 @@
         Upgrade-Insecure-Requests = "1"
         Content-Language = "en-US"
         X-DNS-Prefetch-Control = "off"
+        Content-Type = "text/html"
         Keep-Alive = "100"
         Connection = "keep-alive"
         X-Download-Options = "noopen"
