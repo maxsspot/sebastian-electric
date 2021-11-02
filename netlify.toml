@@ -20,7 +20,6 @@
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "www.sebastianelectric.org"
-        Location = "www.sebastianelectric.org"
         Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         Strict-Transport-Security = '''
