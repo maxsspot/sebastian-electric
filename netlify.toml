@@ -21,7 +21,6 @@
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "www.sebastianelectric.org"
         Location = "www.sebastianelectric.org"
-        NEL: { "report_to": "https://report-uri.com/account/reports/nel/", "max_age": 12345, "include_subdomains": false, "success_fraction": 0.0, "failure_fraction": 1.0 }
         Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         Strict-Transport-Security = '''
