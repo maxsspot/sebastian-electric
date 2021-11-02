@@ -18,7 +18,7 @@
         Expect-CT = "enforce, max-age=3155760000"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "unsafe-none"
+        Cross-Origin-Embedder-Policy = "require-corp"
         Host = "www.sebastianelectric.org"
         Location = "www.sebastianelectric.org"
         Vary = "Upgrade-Insecure-Requests"
