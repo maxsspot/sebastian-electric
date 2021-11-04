@@ -26,7 +26,7 @@
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
-            script-src 'self' 'unsafe-inline' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ ;
+            script-src 'self' 'nonce-2726c7f26c' 'strict-dynamic' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ ;
             style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
             base-uri 'none';
