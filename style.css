@@ -169,7 +169,7 @@ textarea {
 }
 		
 input:focus {
-    border:lightgreen solid 2px;
+    border:skyblue solid 2px;
 }
 		
 textarea:focus {
