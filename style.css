@@ -298,3 +298,7 @@ button, input {
     margin-top:14px;
     cursor:text;
 }
+
+button, input, textarea {
+	transition:all 0.25s;
+}
