@@ -28,7 +28,7 @@ input {
    width:200px;
    margin:3px;
    border-radius:5px;
-   border:gainsboro solid 2px;
+   border:gainsboro solid 3px;
    text-indent:10px;
    background-color:gainsboro;
 }
@@ -169,11 +169,11 @@ textarea {
 }
 		
 input:focus {
-    border:skyblue solid 2px;
+    border:skyblue solid 3px;
 }
 		
 textarea:focus {
-    border:lightgreen solid 2px;
+    border:skyblue solid 3px;
 }
 		
 #picturesbutton {
