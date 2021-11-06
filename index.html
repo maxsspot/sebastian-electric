@@ -94,8 +94,24 @@
             <br>
             <br>
  	    <hr>
+		<br>
+		<br>
+            	    <h2>Review our site</h2>
+	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "bot-field" action = "submitted.html">
+	    <input name = "bot-field" autocomplete = "off" style = "display:none;" />
+	    <input placeholder = "Name" id = "usersname" name = "Name" required />
+	    <br>
+	    <input placeholder = "Email (email@email.com)" id = "email" name = "Email" pattern="^[^ ]+@[^ ]+\.[a-z]{2,63}$" required />
+ 	    <br>
+	    <textarea placeholder = "Review text..." name = "Review Text" spellcheck = "true" maxlength = "256" required></textarea>
+	    <br>
+	    <button id = "call" style = "width:206px;border-radius:5px;">Submit</button>
+	    </form>
+	    <br>
             <br>
-            <br>
+	    <hr>
+	    <br>
+	    <br>
             <h2>Our qualities</h2>
             <br>
             <i class = "fas fa-hard-hat fa-3x" style = "color:green;"></i>
@@ -123,20 +139,6 @@
             <label style = "color:green;font-size:24px;">Insured</label>
             <br>
             <br>
-	    <hr>
-	    <br>
-	    <br>
-	    <h2>Review our site</h2>
-	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "bot-field" action = "submitted.html">
-	    <input name = "bot-field" autocomplete = "off" style = "display:none;" />
-	    <input placeholder = "Name" id = "usersname" name = "Name" required />
-	    <br>
-	    <input placeholder = "Email (email@email.com)" id = "email" name = "Email" pattern="^[^ ]+@[^ ]+\.[a-z]{2,63}$" required />
- 	    <br>
-	    <textarea placeholder = "Review text..." name = "Review Text" spellcheck = "true" maxlength = "256" required></textarea>
-	    <br>
-	    <button id = "call" style = "width:206px;border-radius:5px;">Submit</button>
-	    </form>
 	    <br>
 	    <br>
         </div>
