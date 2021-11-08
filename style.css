@@ -186,8 +186,8 @@ textarea:focus {
 }
 
 #call:active {
-    background-color:blue;
-    border:blue solid 1px;
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
 }
 		
 #picturesbutton:hover {
