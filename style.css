@@ -184,6 +184,11 @@ textarea:focus {
 #call:hover {
     background-color:skyblue;
 }
+
+#call:active {
+    background-color:blue;
+    border:blue solid 1px;
+}
 		
 #picturesbutton:hover {
     background-color:lightgreen;
