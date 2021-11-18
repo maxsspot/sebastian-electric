@@ -22,7 +22,7 @@
         Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         Strict-Transport-Security = '''
-            max-age=3155760000;
+            max-age=31557600;
             includeSubDomains;
             preload
         '''
