@@ -23,7 +23,7 @@
         Allow = "POST"
         Strict-Transport-Security = '''
             max-age=3155760000;
-            includeSubDomains
+            includeSubDomains;
             preload
         '''
         Content-Security-Policy = '''
