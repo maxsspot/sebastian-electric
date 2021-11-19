@@ -11,6 +11,25 @@ html {
     -o-user-select: none;
     user-select: none;
 }
+
+#p {
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#icon {
+	color:green;	
+}
+
+#icon_label {
+	color:green;
+	font-size:24px;	
+}
+
+#hidden {
+display:none;
+}
 		
 #star {
     float:right;
