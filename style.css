@@ -12,6 +12,10 @@ html {
     user-select: none;
 }
 
+#loader {
+display:none;
+}
+
 #p {
 	width:300px;
 	margin-left:auto;
