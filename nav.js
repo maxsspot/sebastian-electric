@@ -12,6 +12,4 @@ function navback () {
                 document.getElementById ("navigation").style.marginLeft = "0px";
                 document.getElementById ("nav2").style.display = "block";
             }	
-document.getElementById("nav").onclick = function() {  
-	nav()
-};  
+document.getElementById("nav").onclick = nav;
