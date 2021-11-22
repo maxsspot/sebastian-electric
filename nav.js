@@ -1,5 +1,7 @@
- 	    console.log ("Images on this website should not be copied.");
-            function nav () {
+document.getElementById("nav").onclick = function() {nav()};
+document.getElementById("nav2").onclick = function() {navback()};
+
+function nav () {
    document.getElementById ("nav").style.display = "none";
                 document.getElementById ("navigation").style.marginLeft = "0px";
                 document.getElementById ("nav2").style.display = "block";
