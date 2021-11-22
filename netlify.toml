@@ -37,6 +37,7 @@
             manifest-src 'none';
             media-src 'none';
             require-trusted-types-for 'script';
+            require-sri-for script style;
             img-src https://s3-media0.fl.yelpcdn.com/bphoto/UaLg-7MI_zi72rRFfqdiWg/ls.jpg https://s3-media0.fl.yelpcdn.com/bphoto/k4Q_TpF8DKN4_Ao4xhFV4A/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/Obh_eW0eB6X6iGF_2BNVUw/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/slxhEPKDp4FjpOZc3Qu3YA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/ZMKSdpG6Um7Qfs78pc6ANA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngpress.com%2Fwp-content%2Fuploads%2F2020%2F04%2Forange-and-black-lightning-logo.png&f=1&nofb=1;
             upgrade-insecure-requests;
             report-uri https://maxsspot.report-uri.com/r/d/csp/wizard;
