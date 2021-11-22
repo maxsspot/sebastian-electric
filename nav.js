@@ -1,4 +1,6 @@
-document.getElementById("nav").onclick = function() {nav()};
+document.getElementById("nav").onclick = function() {  
+	nav()  
+};  
 document.getElementById("nav2").onclick = function() {navback()};
 
 function nav () {
