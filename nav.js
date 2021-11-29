@@ -8,3 +8,4 @@ function navback () {
                 document.getElementById ("navigation").style.marginLeft = "0px";
                 document.getElementById ("nav2").style.display = "block";
             }	
+object.addEventListener("click", nav);
