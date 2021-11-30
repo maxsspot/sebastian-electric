@@ -6,7 +6,6 @@
         Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
         Pragma = "must-revalidate"
-        Access-Control-Allow-Origin = "https://www.freeiconspng.com/uploads/electric-icon-21.png"
         Origin = "www.sebastianelectric.org"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
@@ -29,17 +28,25 @@
             preload
         '''
         Content-Security-Policy = '''
-            default-src 'self' https:;
+            default-src 'self';
             script-src 'self' 'unsafe-inline' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ ;
             style-src 'self' 'nonce-jdJsid293iSj' 'nonce-dsajksadak2" 'nonce-fdaskSasdj312' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
+            form-action 'https://www.sebastianelectric.org/submitted";
+            frame-ancestors 'none';
+            navigate-to 'none';
+            prefetch-src 'none';
+            require-trusted-types-for 'script';
             base-uri 'none';
             frame-src 'none';
             child-src 'none';
+            connect-src 'none';
             manifest-src 'none';
             media-src 'none';
             img-src https://s3-media0.fl.yelpcdn.com/bphoto/UaLg-7MI_zi72rRFfqdiWg/ls.jpg https://s3-media0.fl.yelpcdn.com/bphoto/k4Q_TpF8DKN4_Ao4xhFV4A/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/Obh_eW0eB6X6iGF_2BNVUw/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/slxhEPKDp4FjpOZc3Qu3YA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/ZMKSdpG6Um7Qfs78pc6ANA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg https://www.freeiconspng.com/uploads/electric-icon-21.png;
             upgrade-insecure-requests;
+            block-all-mixed-content;
+            sandbox;
             report-uri https://maxsspot.report-uri.com/r/d/csp/wizard;
         '''
         Permissions-Policy = '''
