@@ -1,7 +1,6 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        Set-Cookie = "CSRFTOKEN=1df93e1eafa42012f9a8aff062eeb1db0380b; Path=/; Secure; SameSite=Strict"
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
@@ -14,13 +13,12 @@
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
         Connection = "keep-alive"
-        Access-Control-Allow-Origin = "*"
         X-Download-Options = "noopen"
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=3155760000, https://maxsspot.report-uri.com/r/d/ct/enforce"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "require-corp"
+        Cross-Origin-Embedder-Policy = "unsafe-none"
         Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         Strict-Transport-Security = '''
