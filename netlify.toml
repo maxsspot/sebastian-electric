@@ -6,6 +6,7 @@
         Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
         Pragma = "must-revalidate"
+        Access-Control-Allow-Origin = "https://www.freeiconspng.com/uploads/electric-icon-21.png"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
         Upgrade-Insecure-Requests = "1"
