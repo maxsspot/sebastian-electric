@@ -1,6 +1,7 @@
 [[headers]]
     for = "/*"
     [headers.values]
+        Set-Cookie = "CSRFTOKEN=1df93e1eafa42012f9a8aff062eeb1db0380b; Path=/; Secure; SameSite=Strict"
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
