@@ -32,7 +32,6 @@
             default-src 'self' https:;
             script-src 'self' 'unsafe-inline' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ ;
             style-src 'self' 'nonce-jdJsid293iSj' 'nonce-dsajksadak2" 'nonce-fdaskSasdj312' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
-            font-src 'self' 'nonce-jdJsid293iS' 'strict-dynamic';
             object-src 'none';
             base-uri 'none';
             frame-src 'none';
