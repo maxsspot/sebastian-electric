@@ -13,6 +13,7 @@
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
         Connection = "keep-alive"
+        Access-Control-Allow-Origin = "https://www.freeiconspng.com/uploads/electric-icon-21.png"
         X-Download-Options = "noopen"
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=3155760000, https://maxsspot.report-uri.com/r/d/ct/enforce"
