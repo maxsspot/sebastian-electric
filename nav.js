@@ -12,12 +12,10 @@ function nav () {
 
 window.onload = function () {
     var btn = document.getElementById("nav");
-    btn.addEventListener("click", myFunction);
-
-    function myFunction() {
+	btn.onclick = function () {
         document.getElementById ("nav").style.display = "none";
         document.getElementById ("navigation").style.marginLeft = "0px";
         document.getElementById ("nav2").style.display = "block";
         btn.removeEventListener("click", myFunction);
-    }
+	}
 };
