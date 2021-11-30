@@ -32,10 +32,8 @@
             script-src 'self' 'unsafe-inline' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56 www.clarity.ms/tag/ ;
             style-src 'self' 'nonce-jdJsid293iSj' 'nonce-dsajksadak2" 'nonce-fdaskSasdj312' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
-            form-action 'https://www.sebastianelectric.org/submitted";
             frame-ancestors 'none';
             navigate-to 'none';
-            prefetch-src 'none';
             require-trusted-types-for 'script';
             base-uri 'none';
             frame-src 'none';
