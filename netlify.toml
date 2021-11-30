@@ -19,6 +19,7 @@
         Expect-CT = "enforce, max-age=3155760000, https://maxsspot.report-uri.com/r/d/ct/enforce"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Embedder-Policy = "require-corp"
         Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         Strict-Transport-Security = '''
