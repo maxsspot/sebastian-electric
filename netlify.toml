@@ -40,6 +40,9 @@
             frame-ancestors 'none';
             trusted-types 'none';
             require-trusted-types-for 'script';
+            worker-src 'none';
+            connect-src 'none';
+            child-src 'none';
             upgrade-insecure-requests;
             report-uri https://maxsspot.report-uri.com/r/d/csp/wizard;
         '''
