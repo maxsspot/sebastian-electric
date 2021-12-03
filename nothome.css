@@ -274,6 +274,7 @@ img, #firstimg {
     height:225px;
     margin-right:auto;
     margin:5px;
+    border:black solid 1px;
     border-radius:15px;
 }
 
