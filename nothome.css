@@ -1,4 +1,4 @@
-            * {
+* {
     margin:0;
     padding:0;
 }
@@ -274,7 +274,7 @@ img, #firstimg {
     height:225px;
     margin-right:auto;
     margin:5px;
-    border-radius:10px;
+    border-radius:15px;
 }
 
 img {
