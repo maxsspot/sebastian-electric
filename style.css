@@ -54,6 +54,11 @@ input {
    text-indent:10px;
    background-color:gainsboro;
 }
+
+#submitform {
+	width:200px;
+	border-radius:10px;
+}
 		
 @font-face {
   font-family: 'Montserrat';
@@ -179,7 +184,7 @@ textarea {
     margin-top:3px;
 }
 		
-#call, #picturesbutton {
+#call, #picturesbutton, #submitform {
     border:skyblue solid 1px;
     border-radius:50px;
     background-color:transparent;
