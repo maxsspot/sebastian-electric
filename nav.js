@@ -9,3 +9,9 @@ function nav () {
         document.getElementById ("navigation").style.marginLeft = "0px";
         document.getElementById ("nav2").style.display = "block";
 }	
+
+$('#nav').click(function(){
+   	document.getElementById ("nav").style.display = "none";
+        document.getElementById ("navigation").style.marginLeft = "0px";
+        document.getElementById ("nav2").style.display = "block";
+});
