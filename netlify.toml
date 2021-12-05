@@ -30,7 +30,7 @@
         '''
         
         Content-Security-Policy = '''
-            default-src 'self' https:;
+            default-src 'self';
             script-src 'self' 'unsafe-inline' https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56;
             style-src 'self' 'nonce-dJsid293iSj' 'nonce-dsajksadak2' 'nonce-dsajksadak2' 'nonce-fdaskSasdj312' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             img-src https://s3-media0.fl.yelpcdn.com/bphoto/UaLg-7MI_zi72rRFfqdiWg/ls.jpg https://s3-media0.fl.yelpcdn.com/bphoto/k4Q_TpF8DKN4_Ao4xhFV4A/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/Obh_eW0eB6X6iGF_2BNVUw/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/slxhEPKDp4FjpOZc3Qu3YA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/ZMKSdpG6Um7Qfs78pc6ANA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg https://www.freeiconspng.com/uploads/electric-icon-21.png;
