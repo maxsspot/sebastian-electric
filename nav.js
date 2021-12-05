@@ -4,12 +4,12 @@ function navback () {
         document.getElementById ("nav2").style.display = "none";
 }	
 
-function nav () {
+function opennav () {
    	document.getElementById ("nav").style.display = "none";
         document.getElementById ("navigation").style.marginLeft = "0px";
         document.getElementById ("nav2").style.display = "block";
 }	
 
 
-$('#nav').click(nav);
+$('#nav').click(opennav);
 $('#nav2').click(navback);
