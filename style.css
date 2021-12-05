@@ -240,8 +240,17 @@ textarea:focus {
 }
 
 #submitform {
-	width:200px;
+	width:202.5px;
 	border-radius:10px;
+}
+
+#submitform:hover {
+    background-color:skyblue;
+}
+
+#submitform:active {
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
 }
 
 hr {
