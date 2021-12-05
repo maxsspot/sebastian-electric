@@ -38,8 +38,6 @@
             media-src 'none';
             frame-src 'none';
             frame-ancestors 'none';
-            trusted-types 'none';
-            require-trusted-types-for 'script';
             worker-src 'none';
             connect-src 'none';
             child-src 'none';
