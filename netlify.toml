@@ -6,7 +6,7 @@
         Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
         Pragma = "must-revalidate"
-        Origin = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fc93fea60bb98e121740fc38ff31162a8.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2016%2F11%2FElectric_Icon.png&f=1&nofb=1"
+        Origin = "https://www.sebastianelectric.org";
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
         Upgrade-Insecure-Requests = "1"
