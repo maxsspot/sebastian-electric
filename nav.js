@@ -4,7 +4,7 @@ function navback () {
         document.getElementById ("nav2").style.display = "none";
 }	
 
-function opennav () {
+function nav () {
    	document.getElementById ("nav").style.display = "none";
         document.getElementById ("navigation").style.marginLeft = "0px";
         document.getElementById ("nav2").style.display = "block";
