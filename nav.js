@@ -17,7 +17,7 @@ function nav () {
 document.getElementById ("submitform").disabled = true;
 
 $(document).ready(function(){
-    $("#check").click(function(){
+    $("#captcha").click(function(){
         if($(this).is(":checked")){
         	document.getElementById ("submit").disabled = false;
         }else if($(this).is(":not(:checked)")){
