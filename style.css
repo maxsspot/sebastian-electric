@@ -11,6 +11,10 @@ display:none;
 	transform:scale(0.5);
 }
 
+label {
+	text-align:left;
+}
+
 #p {
 	width:300px;
 	margin-left:auto;
