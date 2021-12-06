@@ -14,6 +14,7 @@ function nav () {
         document.getElementById ("nav2").style.display = "block";
 }	
 
+/*
 document.getElementById ("submitform").disabled = true;
 
 $(document).ready(function(){
@@ -25,3 +26,4 @@ $(document).ready(function(){
         }
     });
 });
+*/
