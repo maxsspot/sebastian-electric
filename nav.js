@@ -13,3 +13,15 @@ function nav () {
 	document.getElementById ("navigation").style.opacity = "1";
         document.getElementById ("nav2").style.display = "block";
 }	
+
+document.getElementById ("submitform").disabled = true;
+
+$(document).ready(function(){
+    $("#check").click(function(){
+        if($(this).is(":checked")){
+        	document.getElementById ("submit").disabled = false;
+        }else if($(this).is(":not(:checked)")){
+        	document.getElementById ("submit").disabled = true;
+        }
+    });
+});
