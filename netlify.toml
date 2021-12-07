@@ -2,6 +2,7 @@
     for = "/*"
     [headers.values]
         X-Frame-Options = "deny"
+        Clear-Site-Data = "cookies"
         Accept-Encoding = "gzip"
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
