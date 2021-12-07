@@ -7,6 +7,10 @@
 display:none;
 }
 
+#num {
+	margin:5px;
+}
+
 #check {
 	transform:scale(0.5);
 }
