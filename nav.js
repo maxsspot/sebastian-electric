@@ -18,3 +18,10 @@ if(document.getElementById('nav').clicked == true)
 {
    alert("button was clicked");
 }
+
+const element = document.getElementById('nav')
+
+// always checking if the element is clicked, if so, do alert('hello')
+element.addEventListener("click", () => {
+	alert('hello');
+});
