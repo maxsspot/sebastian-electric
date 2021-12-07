@@ -3,6 +3,10 @@
     padding:0;
 }
 
+#lastimg {
+	height:350px;
+}
+
 #loader {
 	display:none;
 }
