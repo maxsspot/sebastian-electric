@@ -52,6 +52,10 @@ display:none;
     position:fixed;
     margin-top:-37.5px;
 }
+
+label {
+	float:left;
+}
 		
 input {
    height:30px;
