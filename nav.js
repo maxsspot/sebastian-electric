@@ -15,9 +15,5 @@ function nav () {
 }	
 
 $("#nav").click(function(){
-    $(this).data('clicked', true);
+    alert ("testing in progress");
 });
-
-if($('#nav').data('clicked')) {
-    alert('yes');
-}
