@@ -14,14 +14,20 @@ function nav () {
         document.getElementById ("nav2").style.display = "block";
 }	
 
-if(document.getElementById('nav').clicked == true)
-{
-   alert("button was clicked");
-}
-
 const element = document.getElementById('nav')
 
-// always checking if the element is clicked, if so, do alert('hello')
 element.addEventListener("click", () => {
-	alert('hello');
+	document.getElementById ("nav").style.display = "none";
+        document.getElementById ("navigation").style.marginLeft = "0px";
+	document.getElementById ("navigation").style.opacity = "1";
+        document.getElementById ("nav2").style.display = "block";
+});
+
+const element2 = document.getElementById('nav2')
+
+element2.addEventListener("click", () => {
+	document.getElementById ("nav").style.display = "block";
+        document.getElementById ("navigation").style.marginLeft = "-100%";
+	document.getElementById ("navigation").style.opacity = "0";
+        document.getElementById ("nav2").style.display = "none";
 });
