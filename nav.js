@@ -14,12 +14,14 @@ function nav () {
         document.getElementById ("nav2").style.display = "block";
 }	
 
-document.getElementById ("submitform").disabled = true;
-
 $(document).ready(function(){
-    $("#check").click(function(){
+    $("#nav").click(function(){
         if($(this).is(":checked")){
-        	document.getElementById ("submitform").disabled = false;
+        		document.getElementById ("submitform").disabled = false;
+		   	document.getElementById ("nav").style.display = "none";
+        		document.getElementById ("navigation").style.marginLeft = "0px";
+			document.getElementById ("navigation").style.opacity = "1";
+        		document.getElementById ("nav2").style.display = "block";
         }else if($(this).is(":not(:checked)")){
         	document.getElementById ("submitform").disabled = true;
         }
