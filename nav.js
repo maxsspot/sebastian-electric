@@ -14,6 +14,7 @@ function nav () {
         document.getElementById ("nav2").style.display = "block";
 }	
 
-$("#nav").click(function(){
-    alert ("testing in progress");
-});
+if(document.getElementById('nav').clicked == true)
+{
+   alert("button was clicked");
+}
