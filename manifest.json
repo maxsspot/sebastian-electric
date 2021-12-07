@@ -4,8 +4,8 @@
     "description": "Sebastian Electric LLC is an father and son owned electrical company. We our located in the United States. Go to our website to learn more!",
     "start_url": "www.sebastianelectric.org",
     "display": "standalone",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#87ceeb",
+    "background_color": "#87ceeb",
     "orientation": "any",
     "icons": [
         {
