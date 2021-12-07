@@ -11,6 +11,10 @@ display:none;
 	transform:scale(0.5);
 }
 
+#calltext {
+	color:black;
+}
+
 label {
 	text-align:left;
 }
@@ -194,7 +198,7 @@ textarea {
 		
 #call, #picturesbutton, #submitform {
     border:skyblue solid 1px;
-    border-radius:50px;
+    border-radius:10px;
     background-color:transparent;
     height:35px;
     color:#1b1b1b;
