@@ -31,3 +31,6 @@ element2.addEventListener("click", () => {
 	document.getElementById ("navigation").style.opacity = "0";
         document.getElementById ("nav2").style.display = "none";
 });
+
+var newURL = location.href.split("?")[0];
+window.history.pushState('object', document.title, newURL);
