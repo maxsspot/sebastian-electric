@@ -14,6 +14,10 @@ function nav () {
         document.getElementById ("nav2").style.display = "block";
 }	
 
+$("#nav").click(function(){
+    $(this).data('clicked', true);
+});
+
 if($('#nav').data('clicked')) {
     alert('yes');
 }
