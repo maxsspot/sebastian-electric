@@ -2,6 +2,7 @@
     for = "/*"
     [headers.values]
         X-Frame-Options = "deny"
+        Accept-Encoding = "gzip"
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
