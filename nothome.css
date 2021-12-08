@@ -32,6 +32,10 @@ display:none;
     transition:all 0.5s;
 }
 
+label {
+	font-size:20;
+}
+
 #call:active {
     background-color:#82EEFD;
     border:#82EEFD solid 1px;
