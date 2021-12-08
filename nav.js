@@ -34,13 +34,3 @@ element2.addEventListener("click", () => {
 
 var newURL = location.href.split("?")[0];
 window.history.pushState('object', document.title, newURL);
-
-if('serviceWorker' in navigator) {
-  let registration;
-
-  const registerServiceWorker = async () => {
-    registration = await          navigator.serviceWorker.register('./service-worker.js');
-  };
-
-  registerServiceWorker();
-}
