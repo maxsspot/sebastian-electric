@@ -3,6 +3,48 @@
     padding:0;
 }
 
+#hidden {
+display:none;
+}
+
+#call, #picturesbutton, #submitform {
+    border:skyblue solid 1px;
+    border-radius:10px;
+    background-color:transparent;
+    height:35px;
+    color:#1b1b1b;
+    margin-top:5px;
+    transition:all 0.5s;
+}
+
+#icon, #icon_label {
+	color:green;
+}
+
+#submitform {
+	width:206.5px;
+	border-radius:5px;
+}
+
+#submitform:hover {
+    background-color:skyblue;
+}
+
+#submitform:active {
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
+}
+
+    background-color:skyblue;
+}
+
+#call:active {
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
+}
+
+
+
 #lastimg {
 	height:350px;
 }
