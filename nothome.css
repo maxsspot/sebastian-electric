@@ -10,11 +10,6 @@
 	
 }
 
-#call:active {
-    background-color:#82EEFD;
-    border:#82EEFD solid 1px;
-}
-
 #calltext {
 	color:black;
 }
@@ -35,6 +30,11 @@ display:none;
     color:#1b1b1b;
     margin-top:5px;
     transition:all 0.5s;
+}
+
+#call:active {
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
 }
 
 #icon, #icon_label {
