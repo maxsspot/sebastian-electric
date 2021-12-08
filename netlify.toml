@@ -20,7 +20,7 @@
         Expect-CT = "enforce, max-age=3155760000, https://maxsspot.report-uri.com/r/d/ct/enforce"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "unsafe-none"
+        Cross-Origin-Embedder-Policy = "require-corp"
         Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         
@@ -46,7 +46,6 @@
             base-uri 'none';
             require-trusted-types-for 'script';
             upgrade-insecure-requests;
-            Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://maxsspot.report-uri.com/a/d/g"}],"include_subdomains":true}
             report-uri https://maxsspot.report-uri.com/r/d/csp/wizard;
         '''
 
