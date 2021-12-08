@@ -10,6 +10,11 @@
 	
 }
 
+#call:active {
+    background-color:#82EEFD;
+    border:#82EEFD solid 1px;
+}
+
 #calltext {
 	color:black;
 }
