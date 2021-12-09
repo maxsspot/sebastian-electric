@@ -10,7 +10,6 @@
         Origin = "https://www.sebastianelectric.org"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
-        Upgrade-Insecure-Requests = "1"
         Content-Language = "en-US"
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
@@ -21,7 +20,6 @@
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
-        Vary = "Upgrade-Insecure-Requests"
         Allow = "POST"
         
         Strict-Transport-Security = '''
