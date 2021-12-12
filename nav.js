@@ -1,4 +1,5 @@
 document.getElementById ("navigation").style.opacity = "0";
+document.getElementById ("submitform").disabled = true;
 
 const element = document.getElementById('nav')
 
