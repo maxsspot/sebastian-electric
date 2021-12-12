@@ -34,3 +34,9 @@ element2.addEventListener("click", () => {
 
 var newURL = location.href.split("?")[0];
 window.history.pushState('object', document.title, newURL);
+
+var captchaWidgetId = grecaptcha.render( 'captcha', {
+  'sitekey' : '6LfQXpkdAAAAAFSNAu5U8ZDx-66kpO6tMIJ-YxWw',  // required
+  'theme' : 'light',  // optional
+  'callback': 'verifyCallback'  // optional
+});
