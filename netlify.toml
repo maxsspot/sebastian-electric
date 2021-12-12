@@ -28,7 +28,7 @@
         '''
         
         Content-Security-Policy = '''
-            default-src 'none';
+            default-src 'self' https:;
             script-src 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'strict-dynamic';
             style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             style-src-elem 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic';
