@@ -1,7 +1,7 @@
 document.getElementById ("navigation").style.opacity = "0";
 document.getElementById ("submitform").disabled = true;
 
-const element = document.getElementById('nav')
+const element = document.getElementById('nav');
 
 element.addEventListener("click", () => {
 	document.getElementById ("nav").style.display = "none";
@@ -10,7 +10,7 @@ element.addEventListener("click", () => {
         document.getElementById ("nav2").style.display = "block";
 });
 
-const element2 = document.getElementById('nav2')
+const element2 = document.getElementById('nav2');
 
 element2.addEventListener("click", () => {
 	document.getElementById ("nav").style.display = "block";
@@ -19,7 +19,7 @@ element2.addEventListener("click", () => {
         document.getElementById ("nav2").style.display = "none";
 });
 
-const element3 = document.getElementById('nobot')
+const element3 = document.getElementById('nobot');
 
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
