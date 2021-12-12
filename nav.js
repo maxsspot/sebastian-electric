@@ -1,5 +1,5 @@
 document.getElementById ("navigation").style.opacity = "0";
-document.getElementById ("verifiy").style.display = "none";
+document.getElementById ("verify").style.display = "none";
 
 const element = document.getElementById('nav')
 
@@ -23,7 +23,7 @@ const element3 = document.getElementById('nobot')
 
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
-	document.getElementById ("verifiy").style.display = "block";
+	document.getElementById ("verify").style.display = "block";
 	document.getElementById ("submitform").disabled = false;
 });
 
