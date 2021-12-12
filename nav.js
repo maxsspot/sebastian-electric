@@ -23,7 +23,6 @@ document.getElementById ("verify").style.display = "none";
 
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
-	document.getElementById ("verify").style.display = "block";
 	document.getElementById ("submitform").disabled = false;
 });
 
