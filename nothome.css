@@ -7,15 +7,15 @@
 	font-size:16px;
 }
 
+#verify {
+	display:none;
+}
+
 #p {
 	width:300px;
 	margin-left:auto;
 	margin-right:auto;
 	
-}
-
-a {
-	cursor:pointer;
 }
 
 #num {
@@ -215,6 +215,7 @@ body {
 
 a {
     color:green;
+    cursor:pointer;
     text-decoration:none;
     transition:all 0.5s;
 }
