@@ -19,7 +19,6 @@ element2.addEventListener("click", () => {
 });
 
 const element3 = document.getElementById('nobot')
-document.getElementById ("verify").style.display = "none";
 
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
