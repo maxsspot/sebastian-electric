@@ -22,7 +22,7 @@ const element3 = document.getElementById('nobot')
 
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
-	document.getElementById ("verifiy").innetHTML = "<i class = 'fas fa-check'></i>";
+	document.getElementById ("verifiy").style.display = "block";
 	document.getElementById ("submitform").disabled = false;
 });
 
