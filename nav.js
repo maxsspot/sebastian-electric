@@ -18,9 +18,9 @@ element2.addEventListener("click", () => {
         document.getElementById ("nav2").style.display = "none";
 });
 
-const element2 = document.getElementById('nobot')
+const element3 = document.getElementById('nobot')
 
-element2.addEventListener("click", () => {
+element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
 	document.getElementById ("submitform").disabled = false;
 });
