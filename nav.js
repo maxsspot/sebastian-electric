@@ -1,4 +1,5 @@
 document.getElementById ("navigation").style.opacity = "0";
+document.getElementById ("verifiy").style.display = "none";
 
 const element = document.getElementById('nav')
 
