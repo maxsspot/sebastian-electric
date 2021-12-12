@@ -1,5 +1,4 @@
 document.getElementById ("navigation").style.opacity = "0";
-document.getElementById ("verify").style.display = "none";
 
 const element = document.getElementById('nav')
 
@@ -20,6 +19,7 @@ element2.addEventListener("click", () => {
 });
 
 const element3 = document.getElementById('nobot')
+document.getElementById ("verify").style.display = "none";
 
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
