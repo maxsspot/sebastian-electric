@@ -30,7 +30,7 @@
         Content-Security-Policy = '''
             default-src 'none';
             script-src 'self' 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'strict-dynamic';
-            style-src 'self' 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-fdaskSasdj312' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
+            style-src 'self' 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             img-src https://s3-media0.fl.yelpcdn.com/bphoto/UaLg-7MI_zi72rRFfqdiWg/ls.jpg https://s3-media0.fl.yelpcdn.com/bphoto/k4Q_TpF8DKN4_Ao4xhFV4A/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/Obh_eW0eB6X6iGF_2BNVUw/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/slxhEPKDp4FjpOZc3Qu3YA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/ZMKSdpG6Um7Qfs78pc6ANA/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/wuRFp6ktAJge85kgu09K-w/o.jpg https://s3-media0.fl.yelpcdn.com/bphoto/-L2rwXjoP5vmrNZvz0Ld_w/o.jpg https://www.freeiconspng.com/uploads/electric-icon-21.png;
             manifest-src 'self';
             media-src 'none';
