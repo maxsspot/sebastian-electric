@@ -2,7 +2,7 @@
     for = "/*"
     [headers.values]
         X-Frame-Options = "deny"
-        Cache-Control = "max-age=31536000"
+        Cache-Control = "must-revalidate"
         Accept-Encoding = "gzip"
         X-XSS-Protection = "1"
         Proxy-Authenticate = "Basic"
