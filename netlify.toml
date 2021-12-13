@@ -4,7 +4,6 @@
         X-Frame-Options = "deny"
         Cache-Control = "must-revalidate"
         Accept-Encoding = "gzip"
-        X-XSS-Protection = "1"
         Proxy-Authenticate = "Basic"
         Origin = "https://www.sebastianelectric.org"
         X-Permitted-Cross-Domain-Policies = "none"
