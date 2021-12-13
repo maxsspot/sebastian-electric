@@ -27,3 +27,7 @@ element3.addEventListener("click", () => {
 
 var newURL = location.href.split("?")[0];
 window.history.pushState('object', document.title, newURL);
+
+function onSubmit(token) {
+  	document.getElementById("review_site").submit();
+}
