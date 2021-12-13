@@ -141,6 +141,7 @@ body {
     height:999vh;
     margin-left:-100%;
     transition:all 1s;
+    margin-top:-5px;
     position:fixed;
     margin-top:10px;
 }
@@ -168,6 +169,7 @@ a {
     color:green;
     cursor:pointer;
     text-decoration:none;
+    font-family: 'Source Sans 3', sans-serif;
     transition:all 0.5s;
 }
             
@@ -333,7 +335,7 @@ button {
 button, input {
     outline:none;
     transition:all 0.25s;
-    font-family:"Montserrat", sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 #title {
