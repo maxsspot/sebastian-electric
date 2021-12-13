@@ -42,7 +42,6 @@
             child-src 'none';
             font-src https:;
             base-uri 'none';
-            require-trusted-types-for 'script';
             upgrade-insecure-requests;
             report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
         '''
