@@ -1,5 +1,12 @@
 document.getElementById ("navigation").style.opacity = "0";
 
+function nav () {
+	document.getElementById ("nav").style.display = "none";
+        document.getElementById ("navigation").style.marginLeft = "0px";
+	document.getElementById ("navigation").style.opacity = "1";
+        document.getElementById ("nav2").style.display = "block";		
+}
+
 const element = document.getElementById('nav');
 
 element.addEventListener("click", () => {
