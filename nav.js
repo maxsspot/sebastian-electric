@@ -22,6 +22,7 @@ const element3 = document.getElementById('nobot');
 document.getElementById ("submitform").disabled = true;
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.opacity = "0.0";
+	document.getElementById ("nobot").style.cursor = "default";
 	document.getElementById ("submitform").disabled = false;
 });
 
