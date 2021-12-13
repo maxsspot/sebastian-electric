@@ -38,7 +38,6 @@
             frame-src 'none';
             font-src https:;
             frame-ancestors 'none';
-            form-action www.sebastianelectric.org/submitted www.sebastianelectric.org www.sebastianelectric.org/pictures www.sebastianelectric.org/contact www.sebastianelectric.org/privacy-policy;
             worker-src 'none';
             prefetch-src https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://www.freeiconspng.com/uploads/electric-icon-21.png;
             connect-src https://www.google-analytics.com/g/collect?v=2&tid=G-Y3M8QTBX56&gtm=2oec10&_p=968591334&sr=360x640&ul=en-us&cid=1431003996.1638922577&_s=1&dl=https%3A%2F%2Fwww.sebastianelectric.org%2F&dt=Sebastian%20Electric%20LLC&sid=1638922576&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1;
