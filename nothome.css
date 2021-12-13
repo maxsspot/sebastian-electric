@@ -1,9 +1,10 @@
 * {
     margin:0;
     padding:0;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 #title {
 	font-size:16px;
@@ -123,7 +124,7 @@ input {
 }
 		
 body {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
     transition:all 1s;
 }
@@ -142,7 +143,6 @@ body {
     height:999vh;
     margin-left:-100%;
     transition:all 1s;
-    margin-top:-7.5px;
     position:fixed;
     margin-top:10px;
 }
@@ -170,7 +170,7 @@ a {
     color:green;
     cursor:pointer;
     text-decoration:none;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition:all 0.5s;
 }
             
@@ -193,7 +193,7 @@ textarea {
     border-radius:5px;
     border:gainsboro solid 2px;
     background-color:gainsboro;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-indent:10px;
     resize:none;
     outline:none;
@@ -336,7 +336,7 @@ button {
 button, input {
     outline:none;
     transition:all 0.25s;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #title {
