@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 
@@ -192,10 +193,10 @@ textarea {
     border-radius:5px;
     border:gainsboro solid 2px;
     background-color:gainsboro;
+    font-family: 'Source Sans 3', sans-serif;
     text-indent:10px;
     resize:none;
     outline:none;
-    font-family:"Montserrat", sans-serif;
     margin-top:3px;
 }
 		
