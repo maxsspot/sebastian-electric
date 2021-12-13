@@ -10,6 +10,7 @@
 
   gtag('config', 'G-Y3M8QTBX56');
 </script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 	<script src = "https://www.google.com/recaptcha/api.js" nonce="Z29vZ2xlLXJlY2FwdGNoYQ=="></script>
         <script src = "nav.js" nonce="d2h5LXlvdS1kZWNvZGUtdGhpcw==" defer></script>
@@ -90,7 +91,7 @@
 		<br>
 		<br>
             	    <h2>Review our site</h2>
-	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "Spam-Filter-Field" action = "submitted.html" accept-charset = "utf-8" >
+	    <form method = "POST" name = "Reviews" data-netlify = "true" netlify-honeypot = "Spam-Filter-Field" data-netlify-recaptcha="true" action = "submitted.html" accept-charset = "utf-8" >
 	    <input name = "Spam-Filter-Field" type = "hidden" autocomplete = "off" id = "hidden" />
 	    <input placeholder = "Name" id = "usersname" name = "Name" required />
 	    <br>
@@ -98,7 +99,7 @@
  	    <br>
 	    <textarea placeholder = "Review text..." name = "Review Text" spellcheck = "true" maxlength = "256" required></textarea>
 		    <br>
-		    <a id = "nobot">Click to prove you<br>are not a robot!</a>
+		    <!--<a id = "nobot">Click to prove you<br>are not a robot!</a>--><div class="g-recaptcha" data-sitekey="6LeWJZ4dAAAAAAycrpow7135vInlUfyQLKw0Pb5B"></div>
 		    <br>
 	    <button id = "submitform">Submit</button>
 	    </form>
