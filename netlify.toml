@@ -36,7 +36,7 @@
             media-src 'none';
             object-src 'none';
             frame-src 'none';
-            font-src https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap;
+            font-src https:;
             frame-ancestors 'none';
             form-action www.sebastianelectric.org/submitted www.sebastianelectric.org www.sebastianelectric.org/pictures www.sebastianelectric.org/contact www.sebastianelectric.org/privacy-policy;
             worker-src 'none';
