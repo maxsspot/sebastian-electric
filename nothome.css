@@ -3,7 +3,6 @@
     padding:0;
 }
 
-.grecaptcha-badge { opacity:0;}
 
 #title {
 	font-size:16px;
@@ -49,7 +48,7 @@ label {
 }
 
 #submitform {
-	width:206.5px;
+	width:204px;
 	border-radius:5px;
 }
 
