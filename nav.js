@@ -21,7 +21,7 @@ element2.addEventListener("click", () => {
 const element3 = document.getElementById('nobot');
 document.getElementById ("submitform").disabled = true;
 element3.addEventListener("click", () => {
-	document.getElementById ("nobot").style.visibility = "hidden";
+	document.getElementById ("nobot").style.opacity = "0.0";
 	document.getElementById ("submitform").disabled = false;
 });
 
