@@ -19,7 +19,7 @@ element2.addEventListener("click", () => {
 });
 
 const element3 = document.getElementById('nobot');
-
+document.getElementById ("submitform").disabled = true;
 element3.addEventListener("click", () => {
 	document.getElementById ("nobot").style.fontWeight = "bold";
 	document.getElementById ("submitform").disabled = false;
@@ -27,7 +27,3 @@ element3.addEventListener("click", () => {
 
 var newURL = location.href.split("?")[0];
 window.history.pushState('object', document.title, newURL);
-
-function onSubmit(token) {
-  	document.getElementById("review_site").submit();
-}
