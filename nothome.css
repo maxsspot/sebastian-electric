@@ -8,6 +8,10 @@
 	font-size:16px;
 }
 
+#nobot {
+	transition:all 0.5s;
+}
+
 #p {
 	width:300px;
 	margin-left:auto;
