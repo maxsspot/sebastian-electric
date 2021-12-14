@@ -5,6 +5,7 @@
         X-XSS-Protection = "0"
         Cache-Control = "must-revalidate"
         Accept-Encoding = "gzip"
+        Content-Encoding = "gzip"
         Proxy-Authenticate = "Basic"
         Origin = "https://www.sebastianelectric.org"
         X-Permitted-Cross-Domain-Policies = "none"
