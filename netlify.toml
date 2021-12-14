@@ -37,7 +37,7 @@
             object-src 'none';
             frame-src 'none';
             form-action 'self' https://www.sebastianelectric.org/submitted;
-            font-src https://fonts.google.com;
+            font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             frame-ancestors 'none';
             worker-src 'none';
             prefetch-src https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://www.freeiconspng.com/uploads/electric-icon-21.png;
