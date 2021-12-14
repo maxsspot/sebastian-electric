@@ -127,6 +127,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align:center;
     transition:all 1s;
+    font-display: fallback;
 }
 
 #navheader {
