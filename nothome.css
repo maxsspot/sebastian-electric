@@ -199,6 +199,7 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     text-indent:10px;
     resize:none;
+    transition:all 0.5s;
     outline:none;
     margin-top:3px;
 }
@@ -338,7 +339,7 @@ button {
 
 button, input {
     outline:none;
-    transition:all 0.25s;
+    transition:all 0.5s;
     font-family: 'Montserrat', sans-serif;
 }
 
