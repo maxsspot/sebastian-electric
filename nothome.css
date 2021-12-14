@@ -143,6 +143,7 @@ body {
     height:999vh;
     margin-left:-100%;
     transition:all 1s;
+    margin:top:0px;
     position:fixed;
     margin-top:10px;
 }
