@@ -3,7 +3,7 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "0"
-        Cache-Control = "must-revalidate"
+        Cache-Control = "no-cache"
         Proxy-Authenticate = "Basic"
         Origin = "https://www.sebastianelectric.org"
         X-Permitted-Cross-Domain-Policies = "none"
