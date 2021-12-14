@@ -1,8 +1,10 @@
 document.getElementById ("navigation").style.opacity = "0";
+document.getElementById ("picnav").style.opacity = "0";
 const opennav = document.getElementById('nav');
 opennav.addEventListener("click", () => {
 	document.getElementById ("nav").style.display = "none";
         document.getElementById ("navigation").style.marginLeft = "0px";
+	document.getElementById ("picnav").style.marginLeft = "0px";
 	document.getElementById ("navigation").style.opacity = "1";
         document.getElementById ("nav2").style.display = "block";
 });
@@ -10,7 +12,9 @@ const closenav = document.getElementById('nav2');
 closenav.addEventListener("click", () => {
 	document.getElementById ("nav").style.display = "block";
         document.getElementById ("navigation").style.marginLeft = "-100%";
+	document.getElementById ("picnav").style.marginLeft = "0px";
 	document.getElementById ("navigation").style.opacity = "0";
+	document.getElementById ("picnav").style.opacity = "0";
         document.getElementById ("nav2").style.display = "none";
 });
 var newURL = location.href.split("?")[0];
