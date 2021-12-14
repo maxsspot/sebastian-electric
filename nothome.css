@@ -144,7 +144,11 @@ body {
     margin-left:-100%;
     transition:all 1s;
     position:fixed;
-    margin-top:15px;
+    margin-top:10px;
+}
+
+#picnav {
+	margin-top:20px;
 }
 
 #review {
