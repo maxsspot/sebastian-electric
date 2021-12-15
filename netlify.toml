@@ -57,4 +57,4 @@
         to = "/pagenotfound.html"
         status = 404
 
-        Report-To = {"group":"default","max_age":31536000,"endpoints":[{"url":"https://maxsspot.report-uri.com/a/d/g"}],"include_subdomains":true}
+        Report-To = "{"group":"default","max_age":31536000,"endpoints":[{"url":"https://maxsspot.report-uri.com/a/d/g"}],"include_subdomains":true}"
