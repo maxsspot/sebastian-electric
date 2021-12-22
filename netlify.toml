@@ -4,7 +4,7 @@
         X-Frame-Options = "deny"
         X-XSS-Protection = "0"
         Cache-Control = "no-cache"
-        Access-Contol-Allow-Origin = "*"
+        Access-Contol-Allow-Origin = "https://www.sebastianelectric.org"
         Vary = "Origin"
         Proxy-Authenticate = "Basic"
         Origin = "www.sebastianelectric.org"
@@ -19,7 +19,7 @@
         Expect-CT = "enforce, max-age=3155760000"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "unsafe-none"
+        Cross-Origin-Embedder-Policy = "requie-corp"
         Allow = "POST"
         
         Strict-Transport-Security = '''
