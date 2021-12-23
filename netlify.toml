@@ -1,7 +1,6 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        Content-Type = "text/html"
         X-Frame-Options = "deny"
         X-XSS-Protection = "0"
         Cache-Control = "no-cache"
