@@ -31,7 +31,7 @@
             default-src 'none';
             script-src 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'report-sample';
             style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic' 'report-sample' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap;
-            img-src https://www.dropbox.com/s/7gvvoj8yknq5ewn/o.webp?raw=1;
+            img-src https://www.dropbox.com https://www.freeiconspng.com/uploads/electric-icon-21.png;
             manifest-src 'none';
             media-src 'none';
             object-src 'none';
