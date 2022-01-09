@@ -15,7 +15,6 @@
         Connection = "keep-alive"
         X-Download-Options = "noopen"
         Referrer-Policy = "no-referrer"
-        Expect-CT = "enforce, max-age=3155760000"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
