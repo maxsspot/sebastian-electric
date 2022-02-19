@@ -2,23 +2,12 @@
     for = "/*"
     [headers.values]
         X-Frame-Options = "deny"
-        X-XSS-Protection = "0"
+        X-XSS-Protection = "1"
         Cache-Control = "no-cache"
-        Vary = "Origin"
-        Proxy-Authenticate = "Basic"
-        Origin = "https://www.sebastianelectric.org"
-        X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
-        Content-Language = "en-US"
-        X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
         Connection = "keep-alive"
-        X-Download-Options = "noopen"
         Referrer-Policy = "no-referrer"
-        Cross-Origin-Opener-Policy = "same-origin"
-        Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "unsafe-none"
-        Allow = "POST"
         
         Strict-Transport-Security = '''
             max-age=31557600;
@@ -29,19 +18,11 @@
         Content-Security-Policy = '''
             default-src 'none';
             script-src 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'report-sample';
-            style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic' 'report-sample' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap;
+            style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'report-sample';
             img-src https:;
-            manifest-src 'none';
-            media-src 'none';
-            object-src 'none';
-            frame-src 'none';
             form-action 'self' https://www.sebastianelectric.org/submitted;
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-            frame-ancestors 'none';
-            worker-src 'none';
             prefetch-src https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://www.freeiconspng.com/uploads/electric-icon-21.png;
-            connect-src https://www.google-analytics.com/g/collect?v=2&tid=G-Y3M8QTBX56&gtm=2oec10&_p=968591334&sr=360x640&ul=en-us&cid=1431003996.1638922577&_s=1&dl=https%3A%2F%2Fwww.sebastianelectric.org%2F&dt=Sebastian%20Electric%20LLC&sid=1638922576&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1;
-            child-src 'none';
             base-uri 'none';
             upgrade-insecure-requests;
             require-trusted-types-for 'script';
