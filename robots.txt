@@ -1,2 +1,14 @@
-User-agent: *
-Allow: /
+#   ___________
+#  / ^      ^  \
+# |      |      | -- Hello, I am good bot! I respect these rules.
+# | __________  | -- Be a good bot like me!
+#  \____________/
+
+User-agent: * 
+Disallow: /submitted
+Disallow: /readme.md
+Disallow: /cname
+
+Host: www.sebastianelectric.org
+
+Sitemap: https://www.sebastianelectric.org/sitemap.txt
