@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html lang = "en-us">
     <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3M8QTBX56" crossorigin defer></script>
-<script nonce = "jJsasm234Ias">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Y3M8QTBX56');
-</script>
+	    <link rel="manifest" href="manifest.json">
 	<link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet" rel="preload">
         <script src = "nav.js" nonce="d2h5LXlvdS1kZWNvZGUtdGhpcw==" defer crossorigin></script>
         <meta charset = "UTF-8">
-	<meta name="copyrighted-site-verification" content="8e0f6860504a0d79" />
+	 <link rel="apple-touch-icon" href="https://www.freeiconspng.com/uploads/electric-icon-21.png">
 	<link rel = "stylesheet" type = "text/css" href = "nothome.css" rel = "preconnect" nonce = "c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==" defer>
         <meta name="google-site-verification" content="fO89aSSHn9RzYMLWCImekaLjOferGyCbAVAZTP-cOnI" />
         <meta name="msvalidate.01" content="0DF23C27361579E6820ACC9E86FA0FC5" />
@@ -118,5 +110,24 @@
 	    <br>
 	    <br>
         </div>
+	    <script>
+			window.addEventListener('load', () => {
+      registerSW();
+    });
+ 
+    // Register the Service Worker
+    async function registerSW() {
+      if ('serviceWorker' in navigator) {
+        try {
+          await navigator
+                .serviceWorker
+                .register('serviceworker.js');
+        }
+        catch (e) {
+          console.log('SW registration failed');
+        }
+      }
+    }
+			</script>
     </body>
 </html>
