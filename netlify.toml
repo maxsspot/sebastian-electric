@@ -25,7 +25,6 @@
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             prefetch-src https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://www.freeiconspng.com/uploads/electric-icon-21.png;
             base-uri 'none';
-            require-trusted-types-for 'script';
             report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
         '''
 
