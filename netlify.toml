@@ -14,21 +14,6 @@
             includeSubDomains;
             preload
         '''
-        
-        Content-Security-Policy = '''
-            default-src 'none';
-            script-src 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'nonce-ZmtqYXNkbGtmYWpzZGxma2Fz' 'report-sample';
-            manifest-src 'self';
-            worker-src 'self';
-            connect-src 'self';
-            style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'report-sample' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
-            img-src https:;
-            form-action 'self' https://www.sebastianelectric.org/submitted;
-            font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-            prefetch-src https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css https://www.freeiconspng.com/uploads/electric-icon-21.png;
-            base-uri 'none';
-            report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
-        '''
 
         Permissions-Policy = '''
             interest-cohort=(none)
