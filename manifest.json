@@ -19,4 +19,24 @@
     "type":"image/png"
     }
   ]
+  "shortcuts": [
+    {
+      "name": "Pictures",
+      "short_name": "Pictures",
+      "url": "/pictures",
+      "icons": [{ "src": "https://www.dropbox.com/s/iij70w0ifsrb51p/image.png?raw=1", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "/contact",
+      "icons": [{ "src": "https://www.dropbox.com/s/xhdkmzho3b3xfk4/contact.png?raw=1", "sizes": "192x192" }]
+    },
+    {
+      "name": "Privacy Policy",
+      "short_name": "Privacy",
+      "url": "/privacy-policy",
+      "icons": [{ "src": "https://www.dropbox.com/s/rmm8hxne34gabar/privacy.png?raw=1", "sizes": "192x192" }]
+    }
+  ]
 }
