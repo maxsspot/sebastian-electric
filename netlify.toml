@@ -3,7 +3,7 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
-        Cache-Control = "max-age=2592000000, must-revalidate"
+        Cache-Control = "max-age=0"
         X-Content-Type-Options = "nosniff"
         Keep-Alive = "100"
         Connection = "keep-alive"
